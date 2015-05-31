@@ -37,6 +37,10 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.ucPaciente1 = new CentroDeSaludSantaIsabel.UCPaciente();
+            this.ucPaciente2 = new CentroDeSaludSantaIsabel.UCPaciente();
+            this.ucPaciente3 = new CentroDeSaludSantaIsabel.UCPaciente();
+            this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label_titulo
@@ -120,10 +124,37 @@
             // 
             // flowLayoutPanel1
             // 
+            this.flowLayoutPanel1.Controls.Add(this.ucPaciente1);
+            this.flowLayoutPanel1.Controls.Add(this.ucPaciente2);
+            this.flowLayoutPanel1.Controls.Add(this.ucPaciente3);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(33, 231);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(919, 592);
             this.flowLayoutPanel1.TabIndex = 157;
+            // 
+            // ucPaciente1
+            // 
+            this.ucPaciente1.AutoSize = true;
+            this.ucPaciente1.Location = new System.Drawing.Point(3, 3);
+            this.ucPaciente1.Name = "ucPaciente1";
+            this.ucPaciente1.Size = new System.Drawing.Size(896, 180);
+            this.ucPaciente1.TabIndex = 0;
+            // 
+            // ucPaciente2
+            // 
+            this.ucPaciente2.AutoSize = true;
+            this.ucPaciente2.Location = new System.Drawing.Point(3, 189);
+            this.ucPaciente2.Name = "ucPaciente2";
+            this.ucPaciente2.Size = new System.Drawing.Size(896, 180);
+            this.ucPaciente2.TabIndex = 1;
+            // 
+            // ucPaciente3
+            // 
+            this.ucPaciente3.AutoSize = true;
+            this.ucPaciente3.Location = new System.Drawing.Point(3, 375);
+            this.ucPaciente3.Name = "ucPaciente3";
+            this.ucPaciente3.Size = new System.Drawing.Size(896, 180);
+            this.ucPaciente3.TabIndex = 2;
             // 
             // CentroSalud
             // 
@@ -143,6 +174,8 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "CentroSalud";
             this.Text = "Centro de Salud";
+            this.flowLayoutPanel1.ResumeLayout(false);
+            this.flowLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -159,6 +192,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button buttonNuevaHC;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private UCPaciente ucPaciente1;
+        private UCPaciente ucPaciente2;
+        private UCPaciente ucPaciente3;
     }
 }
 

@@ -56,14 +56,18 @@
             this.button15 = new System.Windows.Forms.Button();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.ucConsultaEnfermeria1 = new CentroDeSaludSantaIsabel.UCConsultaEnfermeria();
-            this.ucConsultaEnfermeria2 = new CentroDeSaludSantaIsabel.UCConsultaEnfermeria();
-            this.ucConsultaEnfermeria5 = new CentroDeSaludSantaIsabel.UCConsultaEnfermeria();
             this.label_titulo = new System.Windows.Forms.Label();
             this.button_guardar = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
+            this.ucConsultaEnfermeria1 = new CentroDeSaludSantaIsabel.UCConsultaEnfermeria();
+            this.ucConsultaEnfermeria2 = new CentroDeSaludSantaIsabel.UCConsultaEnfermeria();
+            this.ucConsultaEnfermeria5 = new CentroDeSaludSantaIsabel.UCConsultaEnfermeria();
+            this.ucPaciente1 = new CentroDeSaludSantaIsabel.UCPaciente();
+            this.ucResponsable1 = new CentroDeSaludSantaIsabel.UCResponsable();
+            this.ucResponsable2 = new CentroDeSaludSantaIsabel.UCResponsable();
             this.tabControl1.SuspendLayout();
             this.tabPageAdmin.SuspendLayout();
+            this.flowLayoutPanel2.SuspendLayout();
             this.tabPageAnteced.SuspendLayout();
             this.tabPageConsulta.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
@@ -96,6 +100,9 @@
             // flowLayoutPanel2
             // 
             this.flowLayoutPanel2.AutoScroll = true;
+            this.flowLayoutPanel2.Controls.Add(this.ucPaciente1);
+            this.flowLayoutPanel2.Controls.Add(this.ucResponsable1);
+            this.flowLayoutPanel2.Controls.Add(this.ucResponsable2);
             this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel2.Location = new System.Drawing.Point(8, 7);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
@@ -377,30 +384,6 @@
             this.flowLayoutPanel1.Size = new System.Drawing.Size(1527, 554);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
-            // ucConsultaEnfermeria1
-            // 
-            this.ucConsultaEnfermeria1.AutoSize = true;
-            this.ucConsultaEnfermeria1.Location = new System.Drawing.Point(3, 3);
-            this.ucConsultaEnfermeria1.Name = "ucConsultaEnfermeria1";
-            this.ucConsultaEnfermeria1.Size = new System.Drawing.Size(1489, 125);
-            this.ucConsultaEnfermeria1.TabIndex = 0;
-            // 
-            // ucConsultaEnfermeria2
-            // 
-            this.ucConsultaEnfermeria2.AutoSize = true;
-            this.ucConsultaEnfermeria2.Location = new System.Drawing.Point(3, 134);
-            this.ucConsultaEnfermeria2.Name = "ucConsultaEnfermeria2";
-            this.ucConsultaEnfermeria2.Size = new System.Drawing.Size(1489, 125);
-            this.ucConsultaEnfermeria2.TabIndex = 1;
-            // 
-            // ucConsultaEnfermeria5
-            // 
-            this.ucConsultaEnfermeria5.AutoSize = true;
-            this.ucConsultaEnfermeria5.Location = new System.Drawing.Point(3, 265);
-            this.ucConsultaEnfermeria5.Name = "ucConsultaEnfermeria5";
-            this.ucConsultaEnfermeria5.Size = new System.Drawing.Size(1489, 125);
-            this.ucConsultaEnfermeria5.TabIndex = 4;
-            // 
             // label_titulo
             // 
             this.label_titulo.Location = new System.Drawing.Point(560, 934);
@@ -431,6 +414,54 @@
             this.button12.Text = "Volver";
             this.button12.UseVisualStyleBackColor = true;
             // 
+            // ucConsultaEnfermeria1
+            // 
+            this.ucConsultaEnfermeria1.AutoSize = true;
+            this.ucConsultaEnfermeria1.Location = new System.Drawing.Point(3, 3);
+            this.ucConsultaEnfermeria1.Name = "ucConsultaEnfermeria1";
+            this.ucConsultaEnfermeria1.Size = new System.Drawing.Size(1489, 125);
+            this.ucConsultaEnfermeria1.TabIndex = 0;
+            // 
+            // ucConsultaEnfermeria2
+            // 
+            this.ucConsultaEnfermeria2.AutoSize = true;
+            this.ucConsultaEnfermeria2.Location = new System.Drawing.Point(3, 134);
+            this.ucConsultaEnfermeria2.Name = "ucConsultaEnfermeria2";
+            this.ucConsultaEnfermeria2.Size = new System.Drawing.Size(1489, 125);
+            this.ucConsultaEnfermeria2.TabIndex = 1;
+            // 
+            // ucConsultaEnfermeria5
+            // 
+            this.ucConsultaEnfermeria5.AutoSize = true;
+            this.ucConsultaEnfermeria5.Location = new System.Drawing.Point(3, 265);
+            this.ucConsultaEnfermeria5.Name = "ucConsultaEnfermeria5";
+            this.ucConsultaEnfermeria5.Size = new System.Drawing.Size(1489, 125);
+            this.ucConsultaEnfermeria5.TabIndex = 4;
+            // 
+            // ucPaciente1
+            // 
+            this.ucPaciente1.AutoSize = true;
+            this.ucPaciente1.Location = new System.Drawing.Point(3, 3);
+            this.ucPaciente1.Name = "ucPaciente1";
+            this.ucPaciente1.Size = new System.Drawing.Size(896, 180);
+            this.ucPaciente1.TabIndex = 0;
+            // 
+            // ucResponsable1
+            // 
+            this.ucResponsable1.AutoSize = true;
+            this.ucResponsable1.Location = new System.Drawing.Point(3, 189);
+            this.ucResponsable1.Name = "ucResponsable1";
+            this.ucResponsable1.Size = new System.Drawing.Size(892, 177);
+            this.ucResponsable1.TabIndex = 1;
+            // 
+            // ucResponsable2
+            // 
+            this.ucResponsable2.AutoSize = true;
+            this.ucResponsable2.Location = new System.Drawing.Point(3, 372);
+            this.ucResponsable2.Name = "ucResponsable2";
+            this.ucResponsable2.Size = new System.Drawing.Size(892, 177);
+            this.ucResponsable2.TabIndex = 2;
+            // 
             // HistoriaClinica
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
@@ -446,6 +477,8 @@
             this.Text = "Historia Clinica";
             this.tabControl1.ResumeLayout(false);
             this.tabPageAdmin.ResumeLayout(false);
+            this.flowLayoutPanel2.ResumeLayout(false);
+            this.flowLayoutPanel2.PerformLayout();
             this.tabPageAnteced.ResumeLayout(false);
             this.tabPageAnteced.PerformLayout();
             this.tabPageConsulta.ResumeLayout(false);
@@ -492,6 +525,9 @@
         private UCConsultaEnfermeria ucConsultaEnfermeria2;
         private UCConsultaEnfermeria ucConsultaEnfermeria5;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
+        private UCPaciente ucPaciente1;
+        private UCResponsable ucResponsable1;
+        private UCResponsable ucResponsable2;
 
     }
 }
