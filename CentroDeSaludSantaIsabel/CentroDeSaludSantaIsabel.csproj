@@ -32,9 +32,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Npgsql">
-      <HintPath>..\packages\Npgsql.2.2.5\lib\net45\Npgsql.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -47,54 +44,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Antecedentes Anticoncepcion.cs">
+    <Compile Include="FormCentroSalud.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Antecedentes Anticoncepcion.Designer.cs">
-      <DependentUpon>Antecedentes Anticoncepcion.cs</DependentUpon>
+    <Compile Include="FormCentroSalud.Designer.cs">
+      <DependentUpon>FormCentroSalud.cs</DependentUpon>
     </Compile>
-    <Compile Include="Antecedentes embarazo.cs">
+    <Compile Include="FormHistoriaClinica.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Antecedentes embarazo.Designer.cs">
-      <DependentUpon>Antecedentes embarazo.cs</DependentUpon>
+    <Compile Include="FormHistoriaClinica.Designer.cs">
+      <DependentUpon>FormHistoriaClinica.cs</DependentUpon>
     </Compile>
-    <Compile Include="antecedentes en medicamentos en enfermedades cronicas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="antecedentes en medicamentos en enfermedades cronicas.Designer.cs">
-      <DependentUpon>antecedentes en medicamentos en enfermedades cronicas.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Antecedentes PAP.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Antecedentes PAP.Designer.cs">
-      <DependentUpon>Antecedentes PAP.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Antecedentes Patologicos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Antecedentes Patologicos.Designer.cs">
-      <DependentUpon>Antecedentes Patologicos.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Antecedentes Pediatricos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Antecedentes Pediatricos.Designer.cs">
-      <DependentUpon>Antecedentes Pediatricos.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Antecedentes Vacuna.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Antecedentes Vacuna.Designer.cs">
-      <DependentUpon>Antecedentes Vacuna.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Consulta y tratamientos Odontologicos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Consulta y tratamientos Odontologicos.Designer.cs">
-      <DependentUpon>Consulta y tratamientos Odontologicos.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UCConsultaEnfermeria.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -107,44 +70,6 @@
     <Compile Include="UCConsultaMedica.Designer.cs">
       <DependentUpon>UCConsultaMedica.cs</DependentUpon>
     </Compile>
-    <Compile Include="Factores de Riesgo Sociales.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Factores de Riesgo Sociales.Designer.cs">
-      <DependentUpon>Factores de Riesgo Sociales.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Factores de Riesgo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Factores de Riesgo.Designer.cs">
-      <DependentUpon>Factores de Riesgo.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CentroSalud.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CentroSalud.Designer.cs">
-      <DependentUpon>CentroSalud.cs</DependentUpon>
-    </Compile>
-    <Compile Include="HistoriaClinica.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="HistoriaClinica.Designer.cs">
-      <DependentUpon>HistoriaClinica.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Medicamento.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Medicamento.Designer.cs">
-      <DependentUpon>Medicamento.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Paciente.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Paciente.Designer.cs">
-      <DependentUpon>Paciente.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UCHistoriaClinica.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -163,53 +88,11 @@
     <Compile Include="UCResponsable.Designer.cs">
       <DependentUpon>UCResponsable.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Antecedentes Anticoncepcion.resx">
-      <DependentUpon>Antecedentes Anticoncepcion.cs</DependentUpon>
+    <EmbeddedResource Include="FormCentroSalud.resx">
+      <DependentUpon>FormCentroSalud.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Antecedentes embarazo.resx">
-      <DependentUpon>Antecedentes embarazo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="antecedentes en medicamentos en enfermedades cronicas.resx">
-      <DependentUpon>antecedentes en medicamentos en enfermedades cronicas.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Antecedentes PAP.resx">
-      <DependentUpon>Antecedentes PAP.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Antecedentes Patologicos.resx">
-      <DependentUpon>Antecedentes Patologicos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Antecedentes Pediatricos.resx">
-      <DependentUpon>Antecedentes Pediatricos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Antecedentes Vacuna.resx">
-      <DependentUpon>Antecedentes Vacuna.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CentroSalud.resx">
-      <DependentUpon>CentroSalud.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Consulta y tratamientos Odontologicos.resx">
-      <DependentUpon>Consulta y tratamientos Odontologicos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UCConsultaEnfermeria.resx">
-      <DependentUpon>UCConsultaEnfermeria.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UCConsultaMedica.resx">
-      <DependentUpon>UCConsultaMedica.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Factores de Riesgo Sociales.resx">
-      <DependentUpon>Factores de Riesgo Sociales.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Factores de Riesgo.resx">
-      <DependentUpon>Factores de Riesgo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="HistoriaClinica.resx">
-      <DependentUpon>HistoriaClinica.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Medicamento.resx">
-      <DependentUpon>Medicamento.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Paciente.resx">
-      <DependentUpon>Paciente.cs</DependentUpon>
+    <EmbeddedResource Include="FormHistoriaClinica.resx">
+      <DependentUpon>FormHistoriaClinica.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -221,6 +104,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UCConsultaEnfermeria.resx">
+      <DependentUpon>UCConsultaEnfermeria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCConsultaMedica.resx">
+      <DependentUpon>UCConsultaMedica.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UCHistoriaClinica.resx">
       <DependentUpon>UCHistoriaClinica.cs</DependentUpon>
     </EmbeddedResource>
@@ -245,6 +134,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\default_user_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Antecedentes\Antecedentes.csproj">
+      <Project>{3c2580f2-f8a1-457b-93d3-77d232e95de1}</Project>
+      <Name>Antecedentes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Personas\Personas.csproj">
+      <Project>{d1197616-6f94-483d-b965-3a6d7dfc1f66}</Project>
+      <Name>Personas</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Salud\Salud.csproj">
+      <Project>{77924c10-4506-4fe5-8a41-09cf625a1bfc}</Project>
+      <Name>Salud</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

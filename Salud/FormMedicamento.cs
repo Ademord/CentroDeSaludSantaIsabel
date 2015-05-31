@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace CentroDeSaludSantaIsabel
 {
-    public partial class HistoriaClinica : Form
+    public partial class FormMedicamento : Form
     {
-        public HistoriaClinica()
+        public FormMedicamento()
         {
             InitializeComponent();
-        }
-
-
-        private void buttonPaciente_Click(object sender, EventArgs e)
-        {
-            Paciente formPaciente = new Paciente();
-            formPaciente.Show();
         }
     }
 }

@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace CentroDeSaludSantaIsabel
 {
-    public partial class CentroSalud : Form
+    public partial class FormCentroSalud : Form
     {
-        public CentroSalud()
+        public FormCentroSalud()
         {
             InitializeComponent();
         }
@@ -25,7 +25,7 @@ namespace CentroDeSaludSantaIsabel
 
         private void button_medicamento_Click(object sender, EventArgs e)
         {
-            Medicamento formMed = new Medicamento();
+            FormMedicamento formMed = new FormMedicamento();
             formMed.Show();
         }
 
@@ -36,7 +36,7 @@ namespace CentroDeSaludSantaIsabel
 
         private void buttonNuevaHC_Click(object sender, EventArgs e)
         {
-            HistoriaClinica formHC = new HistoriaClinica();
+            FormHistoriaClinica formHC = new FormHistoriaClinica();
             formHC.Show();
         }
     }

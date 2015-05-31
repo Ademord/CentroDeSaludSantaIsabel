@@ -1,6 +1,6 @@
 ﻿namespace CentroDeSaludSantaIsabel
 {
-    partial class Medicamento
+    partial class FormMedicamento
     {
         /// <summary>
         /// Required designer variable.

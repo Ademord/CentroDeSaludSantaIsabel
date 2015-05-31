@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CentroDeSaludSantaIsabel
+namespace Salud
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace CentroDeSaludSantaIsabel
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormCentroSalud());
+            Application.Run(new Form1());
         }
     }
 }

@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3C2580F2-F8A1-457B-93D3-77D232E95DE1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Antecedentes</RootNamespace>
+    <AssemblyName>Antecedentes</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAntecedentesAnticoncepcion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAntecedentesAnticoncepcion.Designer.cs">
+      <DependentUpon>FormAntecedentesAnticoncepcion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAntecedentesEmbarazo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAntecedentesEmbarazo.Designer.cs">
+      <DependentUpon>FormAntecedentesEmbarazo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAntecedentesEnfermedadesCronicas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAntecedentesEnfermedadesCronicas.Designer.cs">
+      <DependentUpon>FormAntecedentesEnfermedadesCronicas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAntecedentesPAP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAntecedentesPAP.Designer.cs">
+      <DependentUpon>FormAntecedentesPAP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAntecedentesPatologicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAntecedentesPatologicos.Designer.cs">
+      <DependentUpon>FormAntecedentesPatologicos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAntecedentesPediatricos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAntecedentesPediatricos.Designer.cs">
+      <DependentUpon>FormAntecedentesPediatricos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAntecedentesVacuna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAntecedentesVacuna.Designer.cs">
+      <DependentUpon>FormAntecedentesVacuna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFactoresDeRiesgo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFactoresDeRiesgo.Designer.cs">
+      <DependentUpon>FormFactoresDeRiesgo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFactoresDeRiesgoSociales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFactoresDeRiesgoSociales.Designer.cs">
+      <DependentUpon>FormFactoresDeRiesgoSociales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAntecedentesAnticoncepcion.resx">
+      <DependentUpon>FormAntecedentesAnticoncepcion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAntecedentesEmbarazo.resx">
+      <DependentUpon>FormAntecedentesEmbarazo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAntecedentesEnfermedadesCronicas.resx">
+      <DependentUpon>FormAntecedentesEnfermedadesCronicas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAntecedentesPAP.resx">
+      <DependentUpon>FormAntecedentesPAP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAntecedentesPatologicos.resx">
+      <DependentUpon>FormAntecedentesPatologicos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAntecedentesPediatricos.resx">
+      <DependentUpon>FormAntecedentesPediatricos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAntecedentesVacuna.resx">
+      <DependentUpon>FormAntecedentesVacuna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFactoresDeRiesgo.resx">
+      <DependentUpon>FormFactoresDeRiesgo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFactoresDeRiesgoSociales.resx">
+      <DependentUpon>FormFactoresDeRiesgoSociales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

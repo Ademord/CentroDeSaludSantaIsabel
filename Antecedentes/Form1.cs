@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CentroDeSaludSantaIsabel
+namespace Antecedentes
 {
-    public partial class Medicamento : Form
+    public partial class Form1 : Form
     {
-        public Medicamento()
+        public Form1()
         {
             InitializeComponent();
         }

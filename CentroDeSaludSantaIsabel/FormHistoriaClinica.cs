@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Drawing;
 using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,17 +10,18 @@ using System.Windows.Forms;
 
 namespace CentroDeSaludSantaIsabel
 {
-    public partial class UCPaciente : UserControl
+    public partial class FormHistoriaClinica : Form
     {
-        public UCPaciente()
+        public FormHistoriaClinica()
         {
             InitializeComponent();
         }
 
-        private void buttonGestionarPaciente_Click(object sender, EventArgs e)
+
+        private void buttonPaciente_Click(object sender, EventArgs e)
         {
-            FormPaciente f = new FormPaciente();
-            f.Show();
+            FormPaciente formPaciente = new FormPaciente();
+            formPaciente.Show();
         }
     }
 }

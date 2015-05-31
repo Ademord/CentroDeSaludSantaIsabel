@@ -11,9 +11,9 @@ using Npgsql;
 
 namespace CentroDeSaludSantaIsabel
 {
-    public partial class Paciente : Form
+    public partial class FormPaciente : Form
     {
-        public Paciente()
+        public FormPaciente()
         {
             InitializeComponent();
         }
@@ -30,7 +30,7 @@ namespace CentroDeSaludSantaIsabel
 
             var nombre = textBox_Nombre.Text;
             var apellidoP = textBox_ApellidoPat.Text;
-            var apellidoM = textBox_ApellidoMat.Text;
+ 
             
             //agregar
             //try {
@@ -39,7 +39,6 @@ namespace CentroDeSaludSantaIsabel
                 cmd.CommandText = "INSERT INTO paciente (nombre, apellido_p, apellido_m) VALUES (@nombre, @apellidoP, @apellidoM);";
                 cmd.Parameters.AddWithValue("nombre", nombre);
                 cmd.Parameters.AddWithValue("apellidoP", apellidoP);
-                cmd.Parameters.AddWithValue("apellidoM", apellidoM);
                 var reader = cmd.ExecuteReader();
                 reader.Read();
 

@@ -1,6 +1,6 @@
 ﻿namespace CentroDeSaludSantaIsabel
 {
-    partial class HistoriaClinica
+    partial class FormHistoriaClinica
     {
         /// <summary>
         /// Required designer variable.
@@ -31,7 +31,12 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPageAdmin = new System.Windows.Forms.TabPage();
             this.button1 = new System.Windows.Forms.Button();
+            this.ucPaciente1 = new CentroDeSaludSantaIsabel.UCPaciente();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.ucResponsable1 = new CentroDeSaludSantaIsabel.UCResponsable();
+            this.ucResponsable2 = new CentroDeSaludSantaIsabel.UCResponsable();
+            this.ucResponsable3 = new CentroDeSaludSantaIsabel.UCResponsable();
+            this.ucResponsable4 = new CentroDeSaludSantaIsabel.UCResponsable();
             this.tabPageAnteced = new System.Windows.Forms.TabPage();
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
@@ -57,16 +62,11 @@
             this.button15 = new System.Windows.Forms.Button();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label_titulo = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.ucPaciente1 = new CentroDeSaludSantaIsabel.UCPaciente();
-            this.ucResponsable1 = new CentroDeSaludSantaIsabel.UCResponsable();
-            this.ucResponsable2 = new CentroDeSaludSantaIsabel.UCResponsable();
-            this.ucResponsable3 = new CentroDeSaludSantaIsabel.UCResponsable();
-            this.ucResponsable4 = new CentroDeSaludSantaIsabel.UCResponsable();
             this.ucConsultaEnfermeria1 = new CentroDeSaludSantaIsabel.UCConsultaEnfermeria();
             this.ucConsultaEnfermeria2 = new CentroDeSaludSantaIsabel.UCConsultaEnfermeria();
             this.ucConsultaEnfermeria5 = new CentroDeSaludSantaIsabel.UCConsultaEnfermeria();
+            this.label_titulo = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPageAdmin.SuspendLayout();
@@ -107,10 +107,18 @@
             this.button1.Location = new System.Drawing.Point(16, 197);
             this.button1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(215, 64);
+            this.button1.Size = new System.Drawing.Size(257, 64);
             this.button1.TabIndex = 160;
             this.button1.Text = "+Responsable";
             this.button1.UseVisualStyleBackColor = true;
+            // 
+            // ucPaciente1
+            // 
+            this.ucPaciente1.AutoSize = true;
+            this.ucPaciente1.Location = new System.Drawing.Point(3, 0);
+            this.ucPaciente1.Name = "ucPaciente1";
+            this.ucPaciente1.Size = new System.Drawing.Size(896, 180);
+            this.ucPaciente1.TabIndex = 1;
             // 
             // flowLayoutPanel2
             // 
@@ -124,6 +132,38 @@
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(1527, 391);
             this.flowLayoutPanel2.TabIndex = 0;
+            // 
+            // ucResponsable1
+            // 
+            this.ucResponsable1.AutoSize = true;
+            this.ucResponsable1.Location = new System.Drawing.Point(3, 3);
+            this.ucResponsable1.Name = "ucResponsable1";
+            this.ucResponsable1.Size = new System.Drawing.Size(892, 177);
+            this.ucResponsable1.TabIndex = 0;
+            // 
+            // ucResponsable2
+            // 
+            this.ucResponsable2.AutoSize = true;
+            this.ucResponsable2.Location = new System.Drawing.Point(3, 186);
+            this.ucResponsable2.Name = "ucResponsable2";
+            this.ucResponsable2.Size = new System.Drawing.Size(892, 177);
+            this.ucResponsable2.TabIndex = 1;
+            // 
+            // ucResponsable3
+            // 
+            this.ucResponsable3.AutoSize = true;
+            this.ucResponsable3.Location = new System.Drawing.Point(3, 369);
+            this.ucResponsable3.Name = "ucResponsable3";
+            this.ucResponsable3.Size = new System.Drawing.Size(892, 177);
+            this.ucResponsable3.TabIndex = 2;
+            // 
+            // ucResponsable4
+            // 
+            this.ucResponsable4.AutoSize = true;
+            this.ucResponsable4.Location = new System.Drawing.Point(3, 552);
+            this.ucResponsable4.Name = "ucResponsable4";
+            this.ucResponsable4.Size = new System.Drawing.Size(892, 177);
+            this.ucResponsable4.TabIndex = 3;
             // 
             // tabPageAnteced
             // 
@@ -400,66 +440,6 @@
             this.flowLayoutPanel1.Size = new System.Drawing.Size(1527, 554);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
-            // label_titulo
-            // 
-            this.label_titulo.Location = new System.Drawing.Point(557, 884);
-            this.label_titulo.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
-            this.label_titulo.Name = "label_titulo";
-            this.label_titulo.Size = new System.Drawing.Size(482, 80);
-            this.label_titulo.TabIndex = 134;
-            this.label_titulo.Text = "CENTRO SALUD SANTA ISABEL";
-            this.label_titulo.UseMnemonic = false;
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(1332, 753);
-            this.button5.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(235, 111);
-            this.button5.TabIndex = 140;
-            this.button5.Text = "Guardar";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // ucPaciente1
-            // 
-            this.ucPaciente1.AutoSize = true;
-            this.ucPaciente1.Location = new System.Drawing.Point(3, 0);
-            this.ucPaciente1.Name = "ucPaciente1";
-            this.ucPaciente1.Size = new System.Drawing.Size(896, 180);
-            this.ucPaciente1.TabIndex = 1;
-            // 
-            // ucResponsable1
-            // 
-            this.ucResponsable1.AutoSize = true;
-            this.ucResponsable1.Location = new System.Drawing.Point(3, 3);
-            this.ucResponsable1.Name = "ucResponsable1";
-            this.ucResponsable1.Size = new System.Drawing.Size(892, 177);
-            this.ucResponsable1.TabIndex = 0;
-            // 
-            // ucResponsable2
-            // 
-            this.ucResponsable2.AutoSize = true;
-            this.ucResponsable2.Location = new System.Drawing.Point(3, 186);
-            this.ucResponsable2.Name = "ucResponsable2";
-            this.ucResponsable2.Size = new System.Drawing.Size(892, 177);
-            this.ucResponsable2.TabIndex = 1;
-            // 
-            // ucResponsable3
-            // 
-            this.ucResponsable3.AutoSize = true;
-            this.ucResponsable3.Location = new System.Drawing.Point(3, 369);
-            this.ucResponsable3.Name = "ucResponsable3";
-            this.ucResponsable3.Size = new System.Drawing.Size(892, 177);
-            this.ucResponsable3.TabIndex = 2;
-            // 
-            // ucResponsable4
-            // 
-            this.ucResponsable4.AutoSize = true;
-            this.ucResponsable4.Location = new System.Drawing.Point(3, 552);
-            this.ucResponsable4.Name = "ucResponsable4";
-            this.ucResponsable4.Size = new System.Drawing.Size(892, 177);
-            this.ucResponsable4.TabIndex = 3;
-            // 
             // ucConsultaEnfermeria1
             // 
             this.ucConsultaEnfermeria1.AutoSize = true;
@@ -484,6 +464,26 @@
             this.ucConsultaEnfermeria5.Size = new System.Drawing.Size(1489, 125);
             this.ucConsultaEnfermeria5.TabIndex = 4;
             // 
+            // label_titulo
+            // 
+            this.label_titulo.Location = new System.Drawing.Point(557, 884);
+            this.label_titulo.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label_titulo.Name = "label_titulo";
+            this.label_titulo.Size = new System.Drawing.Size(482, 80);
+            this.label_titulo.TabIndex = 134;
+            this.label_titulo.Text = "CENTRO SALUD SANTA ISABEL";
+            this.label_titulo.UseMnemonic = false;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(1332, 753);
+            this.button5.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(235, 111);
+            this.button5.TabIndex = 140;
+            this.button5.Text = "Guardar";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
             // button12
             // 
             this.button12.Location = new System.Drawing.Point(17, 753);
@@ -494,7 +494,7 @@
             this.button12.Text = "Cancelar";
             this.button12.UseVisualStyleBackColor = true;
             // 
-            // HistoriaClinica
+            // FormHistoriaClinica
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -505,7 +505,7 @@
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.label_titulo);
             this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.Name = "HistoriaClinica";
+            this.Name = "FormHistoriaClinica";
             this.Text = "Historia Clinica";
             this.tabControl1.ResumeLayout(false);
             this.tabPageAdmin.ResumeLayout(false);
