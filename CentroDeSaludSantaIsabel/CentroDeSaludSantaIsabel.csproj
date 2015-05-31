@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4086B85C-80A8-4098-82F8-C52EF52A4F57}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CentroDeSaludSantaIsabel</RootNamespace>
+    <AssemblyName>CentroDeSaludSantaIsabel</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Npgsql">
+      <HintPath>..\packages\Npgsql.2.2.5\lib\net45\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Antecedentes Anticoncepcion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Antecedentes Anticoncepcion.Designer.cs">
+      <DependentUpon>Antecedentes Anticoncepcion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Antecedentes embarazo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Antecedentes embarazo.Designer.cs">
+      <DependentUpon>Antecedentes embarazo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="antecedentes en medicamentos en enfermedades cronicas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="antecedentes en medicamentos en enfermedades cronicas.Designer.cs">
+      <DependentUpon>antecedentes en medicamentos en enfermedades cronicas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Antecedentes PAP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Antecedentes PAP.Designer.cs">
+      <DependentUpon>Antecedentes PAP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Antecedentes Patologicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Antecedentes Patologicos.Designer.cs">
+      <DependentUpon>Antecedentes Patologicos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Antecedentes Pediatricos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Antecedentes Pediatricos.Designer.cs">
+      <DependentUpon>Antecedentes Pediatricos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Antecedentes Vacuna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Antecedentes Vacuna.Designer.cs">
+      <DependentUpon>Antecedentes Vacuna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consulta y tratamientos Odontologicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consulta y tratamientos Odontologicos.Designer.cs">
+      <DependentUpon>Consulta y tratamientos Odontologicos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCConsultaEnfermeria.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCConsultaEnfermeria.Designer.cs">
+      <DependentUpon>UCConsultaEnfermeria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCConsultaMedica.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCConsultaMedica.Designer.cs">
+      <DependentUpon>UCConsultaMedica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Factores de Riesgo Sociales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Factores de Riesgo Sociales.Designer.cs">
+      <DependentUpon>Factores de Riesgo Sociales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Factores de Riesgo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Factores de Riesgo.Designer.cs">
+      <DependentUpon>Factores de Riesgo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CentroSalud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CentroSalud.Designer.cs">
+      <DependentUpon>CentroSalud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HistoriaClinica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistoriaClinica.Designer.cs">
+      <DependentUpon>HistoriaClinica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Medicamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Medicamento.Designer.cs">
+      <DependentUpon>Medicamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Paciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Paciente.Designer.cs">
+      <DependentUpon>Paciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UCHistoriaClinica.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCHistoriaClinica.Designer.cs">
+      <DependentUpon>UCHistoriaClinica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCPaciente.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCPaciente.Designer.cs">
+      <DependentUpon>UCPaciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCResponsable.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCResponsable.Designer.cs">
+      <DependentUpon>UCResponsable.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Antecedentes Anticoncepcion.resx">
+      <DependentUpon>Antecedentes Anticoncepcion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Antecedentes embarazo.resx">
+      <DependentUpon>Antecedentes embarazo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="antecedentes en medicamentos en enfermedades cronicas.resx">
+      <DependentUpon>antecedentes en medicamentos en enfermedades cronicas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Antecedentes PAP.resx">
+      <DependentUpon>Antecedentes PAP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Antecedentes Patologicos.resx">
+      <DependentUpon>Antecedentes Patologicos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Antecedentes Pediatricos.resx">
+      <DependentUpon>Antecedentes Pediatricos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Antecedentes Vacuna.resx">
+      <DependentUpon>Antecedentes Vacuna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CentroSalud.resx">
+      <DependentUpon>CentroSalud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consulta y tratamientos Odontologicos.resx">
+      <DependentUpon>Consulta y tratamientos Odontologicos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCConsultaEnfermeria.resx">
+      <DependentUpon>UCConsultaEnfermeria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCConsultaMedica.resx">
+      <DependentUpon>UCConsultaMedica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Factores de Riesgo Sociales.resx">
+      <DependentUpon>Factores de Riesgo Sociales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Factores de Riesgo.resx">
+      <DependentUpon>Factores de Riesgo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistoriaClinica.resx">
+      <DependentUpon>HistoriaClinica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Medicamento.resx">
+      <DependentUpon>Medicamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Paciente.resx">
+      <DependentUpon>Paciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UCHistoriaClinica.resx">
+      <DependentUpon>UCHistoriaClinica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCPaciente.resx">
+      <DependentUpon>UCPaciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCResponsable.resx">
+      <DependentUpon>UCResponsable.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\default_user_icon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

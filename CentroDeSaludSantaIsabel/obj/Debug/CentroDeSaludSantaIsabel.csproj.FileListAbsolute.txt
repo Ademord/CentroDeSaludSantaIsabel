@@ -1,0 +1,98 @@
+c:\users\oscar\documents\visual studio 2012\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\CentroDeSaludSantaIsabel.exe.config
+C:\Users\Francisco\Desktop\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\CentroDeSaludSantaIsabel.exe.config
+C:\Users\Francisco\Desktop\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.csprojResolveAssemblyReference.cache
+C:\Users\Francisco\Desktop\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Antecedentes_Anticoncepcion.resources
+C:\Users\Francisco\Desktop\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Antecedentes_embarazo.resources
+C:\Users\Francisco\Desktop\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.antecedentes_en_medicamentos_en_enfermedades_cronicas.resources
+C:\Users\Francisco\Desktop\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Antecedentes_PAP.resources
+C:\Users\Francisco\Desktop\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Antecedentes_Patologicos.resources
+C:\Users\Francisco\Desktop\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Antecedentes_Pediatricos.resources
+C:\Users\Francisco\Desktop\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Antecedentes_Vacuna.resources
+C:\Users\Francisco\Desktop\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Consulta_y_tratamientos_Odontologicos.resources
+C:\Users\Francisco\Desktop\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Factores_de_Riesgo_Sociales.resources
+C:\Users\Francisco\Desktop\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Factores_de_Riesgo.resources
+C:\Users\Francisco\Desktop\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Historia_Clinica.resources
+C:\Users\Francisco\Desktop\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Medicamento.resources
+C:\Users\Francisco\Desktop\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Paciente.resources
+C:\Users\Francisco\Desktop\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Properties.Resources.resources
+C:\Users\Francisco\Desktop\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.csproj.GenerateResource.Cache
+C:\Users\Francisco\Desktop\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\CentroDeSaludSantaIsabel.exe
+C:\Users\Francisco\Desktop\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\CentroDeSaludSantaIsabel.pdb
+C:\Users\Francisco\Desktop\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\Npgsql.dll
+C:\Users\Francisco\Desktop\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\Mono.Security.dll
+C:\Users\Francisco\Desktop\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\Npgsql.xml
+C:\Users\Francisco\Desktop\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\de\Npgsql.resources.dll
+C:\Users\Francisco\Desktop\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\es\Npgsql.resources.dll
+C:\Users\Francisco\Desktop\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\Francisco\Desktop\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\Francisco\Desktop\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\Francisco\Desktop\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\Francisco\Desktop\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.CentroSalud.resources
+C:\Users\Francisco\Desktop\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.exe
+C:\Users\Francisco\Desktop\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.pdb
+C:\Users\Oscar\Downloads\Clases\sistemas de informacion\proyecto\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\CentroDeSaludSantaIsabel.exe.config
+C:\Users\Oscar\Downloads\Clases\sistemas de informacion\proyecto\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.exe
+C:\Users\Oscar\Downloads\Clases\sistemas de informacion\proyecto\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.pdb
+C:\Users\Oscar\Downloads\Clases\sistemas de informacion\proyecto\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\CentroDeSaludSantaIsabel.exe
+C:\Users\Oscar\Downloads\Clases\sistemas de informacion\proyecto\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\CentroDeSaludSantaIsabel.pdb
+C:\Users\Oscar\Downloads\Clases\sistemas de informacion\proyecto\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\Npgsql.dll
+C:\Users\Oscar\Downloads\Clases\sistemas de informacion\proyecto\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\Mono.Security.dll
+C:\Users\Oscar\Downloads\Clases\sistemas de informacion\proyecto\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\Npgsql.xml
+C:\Users\Oscar\Downloads\Clases\sistemas de informacion\proyecto\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\de\Npgsql.resources.dll
+C:\Users\Oscar\Downloads\Clases\sistemas de informacion\proyecto\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\es\Npgsql.resources.dll
+C:\Users\Oscar\Downloads\Clases\sistemas de informacion\proyecto\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\Oscar\Downloads\Clases\sistemas de informacion\proyecto\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\Oscar\Downloads\Clases\sistemas de informacion\proyecto\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\Oscar\Downloads\Clases\sistemas de informacion\proyecto\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\Oscar\Downloads\Clases\sistemas de informacion\proyecto\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.csprojResolveAssemblyReference.cache
+C:\Users\Oscar\Downloads\Clases\sistemas de informacion\proyecto\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Antecedentes_Anticoncepcion.resources
+C:\Users\Oscar\Downloads\Clases\sistemas de informacion\proyecto\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Antecedentes_embarazo.resources
+C:\Users\Oscar\Downloads\Clases\sistemas de informacion\proyecto\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.antecedentes_en_medicamentos_en_enfermedades_cronicas.resources
+C:\Users\Oscar\Downloads\Clases\sistemas de informacion\proyecto\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Antecedentes_PAP.resources
+C:\Users\Oscar\Downloads\Clases\sistemas de informacion\proyecto\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Antecedentes_Patologicos.resources
+C:\Users\Oscar\Downloads\Clases\sistemas de informacion\proyecto\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Antecedentes_Pediatricos.resources
+C:\Users\Oscar\Downloads\Clases\sistemas de informacion\proyecto\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Antecedentes_Vacuna.resources
+C:\Users\Oscar\Downloads\Clases\sistemas de informacion\proyecto\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.CentroSalud.resources
+C:\Users\Oscar\Downloads\Clases\sistemas de informacion\proyecto\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Consulta_y_tratamientos_Odontologicos.resources
+C:\Users\Oscar\Downloads\Clases\sistemas de informacion\proyecto\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Factores_de_Riesgo_Sociales.resources
+C:\Users\Oscar\Downloads\Clases\sistemas de informacion\proyecto\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Factores_de_Riesgo.resources
+C:\Users\Oscar\Downloads\Clases\sistemas de informacion\proyecto\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Historia_Clinica.resources
+C:\Users\Oscar\Downloads\Clases\sistemas de informacion\proyecto\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Medicamento.resources
+C:\Users\Oscar\Downloads\Clases\sistemas de informacion\proyecto\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Paciente.resources
+C:\Users\Oscar\Downloads\Clases\sistemas de informacion\proyecto\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Properties.Resources.resources
+C:\Users\Oscar\Downloads\Clases\sistemas de informacion\proyecto\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.csproj.GenerateResource.Cache
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\CentroDeSaludSantaIsabel.exe.config
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\CentroDeSaludSantaIsabel.exe
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\CentroDeSaludSantaIsabel.pdb
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\Npgsql.dll
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\Mono.Security.dll
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\Npgsql.xml
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\de\Npgsql.resources.dll
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\es\Npgsql.resources.dll
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Antecedentes_Anticoncepcion.resources
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Antecedentes_embarazo.resources
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.antecedentes_en_medicamentos_en_enfermedades_cronicas.resources
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Antecedentes_PAP.resources
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Antecedentes_Patologicos.resources
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Antecedentes_Pediatricos.resources
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Antecedentes_Vacuna.resources
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.CentroSalud.resources
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Consulta_y_tratamientos_Odontologicos.resources
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.UCConsultaEnfermeria.resources
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.UCConsultaMedica.resources
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Factores_de_Riesgo_Sociales.resources
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Factores_de_Riesgo.resources
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.HistoriaClinica.resources
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Medicamento.resources
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Paciente.resources
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Properties.Resources.resources
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.UCHistoriaClinica.resources
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.UCPaciente.resources
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.csproj.GenerateResource.Cache
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.exe
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.pdb
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.UCResponsable.resources
