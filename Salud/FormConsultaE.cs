@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CentroDeSaludSantaIsabel
 {
-    public partial class Consulta_y_tratamientos_Odontologicos : Form
+    public partial class ConsultaEnfermeria : Form
     {
-        public Consulta_y_tratamientos_Odontologicos()
+        public ConsultaEnfermeria()
         {
             InitializeComponent();
         }
