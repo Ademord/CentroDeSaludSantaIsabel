@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using CentroDeSaludSantaIsabel;
 namespace CentroDeSaludSantaIsabel
 {
     public partial class FormHistoriaClinica : Form
@@ -17,11 +17,18 @@ namespace CentroDeSaludSantaIsabel
             InitializeComponent();
         }
 
-
-        private void buttonPaciente_Click(object sender, EventArgs e)
+        private void buttonNuevaConsultaEnfermeria_Click(object sender, EventArgs e)
         {
-            FormPaciente formPaciente = new FormPaciente();
-            formPaciente.Show();
+            Salud.FormConsultaEnfermeria formCE = new Salud.FormConsultaEnfermeria();
+            formCE.Show();
+
         }
+
+        private void buttonbuttonNuevaConsultaMedica_Click(object sender, EventArgs e)
+        {
+            Salud.FormConsultaMedica form = new Salud.FormConsultaMedica();
+            form.Show();
+        }
+
     }
 }

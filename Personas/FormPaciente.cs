@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Npgsql;
 
-namespace CentroDeSaludSantaIsabel
+namespace Personas
 {
     public partial class FormPaciente : Form
     {

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace>CentroSalud.DOM</RootNamespace>
+    <AssemblyName>DOM</AssemblyName>
+    <ProjectGuid>{}</ProjectGuid>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CTRLPaciente.cs" />
+    <Compile Include="CentroSalud.cs" />
+    <Compile Include="Responsable.cs" />
+    <Compile Include="Persona.cs" />
+    <Compile Include="AntPatologicos.cs" />
+    <Compile Include="MedyEnfCronicas.cs" />
+    <Compile Include="AntGinecoabstetricos.cs" />
+    <Compile Include="FactRSociales.cs" />
+    <Compile Include="FactR.cs" />
+    <Compile Include="AntPediatricos.cs" />
+    <Compile Include="Embarazo.cs" />
+    <Compile Include="Anticoncepcion.cs" />
+    <Compile Include="PAP.cs" />
+    <Compile Include="ConsultaMedica.cs" />
+    <Compile Include="Diagnostico.cs" />
+    <Compile Include="Tratamiento.cs" />
+    <Compile Include="Medicamento.cs" />
+    <Compile Include="ConsultaEnfermeria.cs" />
+    <Compile Include="Enfermera.cs" />
+    <Compile Include="Medico.cs" />
+    <Compile Include="Vacuna.cs" />
+    <Compile Include="Recepcionista.cs" />
+    <Compile Include="AntVacuna.cs" />
+    <Compile Include="TipoEmbarazo.cs" />
+    <Compile Include="MetodoAnticonceptivo.cs" />
+    <Compile Include="Enfermedad.cs" />
+    <Compile Include="BufferPaciente.cs" />
+    <Compile Include="AdapatadorUCPaciente.cs" />
+    <Compile Include="FormPaciente.cs" />
+    <Compile Include="Paciente.cs" />
+    <Compile Include="CTRLDTPaciente.cs" />
+    <Compile Include="DTPaciente.cs" />
+    <Compile Include="AdaptadorBDDTPaciente.cs" />
+    <Compile Include="AdaptadorDTPaciente.cs" />
+    <Compile Include="AdaptadorBD.cs" />
+    <Compile Include="BD.cs" />
+    <Compile Include="FormHistoriaClinica.cs" />
+    <Compile Include="AdaptadorUCHClinica.cs" />
+    <Compile Include="BufferBD.cs" />
+    <Compile Include="Periodo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

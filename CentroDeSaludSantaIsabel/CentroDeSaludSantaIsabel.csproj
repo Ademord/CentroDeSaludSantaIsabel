@@ -58,34 +58,34 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UCConsultaEnfermeria.cs">
+    <Compile Include="UC\UCConsultaEnfermeria.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCConsultaEnfermeria.Designer.cs">
+    <Compile Include="UC\UCConsultaEnfermeria.Designer.cs">
       <DependentUpon>UCConsultaEnfermeria.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCConsultaMedica.cs">
+    <Compile Include="UC\UCConsultaMedica.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCConsultaMedica.Designer.cs">
+    <Compile Include="UC\UCConsultaMedica.Designer.cs">
       <DependentUpon>UCConsultaMedica.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCHistoriaClinica.cs">
+    <Compile Include="UC\UCHistoriaClinica.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCHistoriaClinica.Designer.cs">
+    <Compile Include="UC\UCHistoriaClinica.Designer.cs">
       <DependentUpon>UCHistoriaClinica.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCPaciente.cs">
+    <Compile Include="UC\UCPaciente.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCPaciente.Designer.cs">
+    <Compile Include="UC\UCPaciente.Designer.cs">
       <DependentUpon>UCPaciente.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCResponsable.cs">
+    <Compile Include="UC\UCResponsable.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCResponsable.Designer.cs">
+    <Compile Include="UC\UCResponsable.Designer.cs">
       <DependentUpon>UCResponsable.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="FormCentroSalud.resx">
@@ -104,21 +104,22 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="UCConsultaEnfermeria.resx">
+    <EmbeddedResource Include="UC\UCConsultaEnfermeria.resx">
       <DependentUpon>UCConsultaEnfermeria.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCConsultaMedica.resx">
+    <EmbeddedResource Include="UC\UCConsultaMedica.resx">
       <DependentUpon>UCConsultaMedica.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCHistoriaClinica.resx">
+    <EmbeddedResource Include="UC\UCHistoriaClinica.resx">
       <DependentUpon>UCHistoriaClinica.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCPaciente.resx">
+    <EmbeddedResource Include="UC\UCPaciente.resx">
       <DependentUpon>UCPaciente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCResponsable.resx">
+    <EmbeddedResource Include="UC\UCResponsable.resx">
       <DependentUpon>UCResponsable.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

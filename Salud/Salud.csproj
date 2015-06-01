@@ -50,11 +50,17 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormConsultaTratamientosOdontologicos.cs">
+    <Compile Include="FormConsultaE.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormConsultaTratamientosOdontologicos.Designer.cs">
-      <DependentUpon>FormConsultaTratamientosOdontologicos.cs</DependentUpon>
+    <Compile Include="FormConsultaE.Designer.cs">
+      <DependentUpon>FormConsultaE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormConsultaMedica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConsultaMedica.Designer.cs">
+      <DependentUpon>FormConsultaMedica.cs</DependentUpon>
     </Compile>
     <Compile Include="FormMedicamento.cs">
       <SubType>Form</SubType>
@@ -64,8 +70,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormConsultaTratamientosOdontologicos.resx">
-      <DependentUpon>FormConsultaTratamientosOdontologicos.cs</DependentUpon>
+    <EmbeddedResource Include="FormConsultaE.resx">
+      <DependentUpon>FormConsultaE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConsultaMedica.resx">
+      <DependentUpon>FormConsultaMedica.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMedicamento.resx">
       <DependentUpon>FormMedicamento.cs</DependentUpon>

@@ -83,11 +83,11 @@ C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabe
 C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.FormCentroSalud.resources
 C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.FormHistoriaClinica.resources
 C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.Properties.Resources.resources
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.UCConsultaEnfermeria.resources
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.UCConsultaMedica.resources
 C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.UCHistoriaClinica.resources
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.UCPaciente.resources
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.UCResponsable.resources
 C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.csproj.GenerateResource.Cache
 C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.exe
 C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.pdb
-C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.UCPaciente.resources
-C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.UCResponsable.resources
-C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.UCConsultaEnfermeria.resources
-C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\CentroDeSaludSantaIsabel\obj\Debug\CentroDeSaludSantaIsabel.UCConsultaMedica.resources

@@ -1,6 +1,6 @@
-﻿namespace CentroDeSaludSantaIsabel
+﻿namespace Salud
 {
-    partial class ConsultaEnfermeria
+    partial class FormConsultaEnfermeria
     {
         /// <summary>
         /// Required designer variable.
@@ -48,10 +48,12 @@
             // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.CustomFormat = "dd/MM/yyyy";
             this.dateTimePicker1.Location = new System.Drawing.Point(27, 607);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(448, 38);
+            this.dateTimePicker1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.dateTimePicker1.Size = new System.Drawing.Size(524, 38);
             this.dateTimePicker1.TabIndex = 162;
             // 
             // label1
@@ -69,7 +71,7 @@
             this.textBox1.Location = new System.Drawing.Point(27, 155);
             this.textBox1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(448, 38);
+            this.textBox1.Size = new System.Drawing.Size(524, 38);
             this.textBox1.TabIndex = 143;
             // 
             // label12
@@ -87,7 +89,7 @@
             this.maskedTextBox1.Location = new System.Drawing.Point(27, 254);
             this.maskedTextBox1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(448, 38);
+            this.maskedTextBox1.Size = new System.Drawing.Size(524, 38);
             this.maskedTextBox1.TabIndex = 155;
             // 
             // label2
@@ -105,7 +107,7 @@
             this.textBox2.Location = new System.Drawing.Point(27, 352);
             this.textBox2.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(448, 38);
+            this.textBox2.Size = new System.Drawing.Size(524, 38);
             this.textBox2.TabIndex = 164;
             // 
             // textBox3
@@ -113,7 +115,7 @@
             this.textBox3.Location = new System.Drawing.Point(27, 436);
             this.textBox3.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(448, 38);
+            this.textBox3.Size = new System.Drawing.Size(524, 38);
             this.textBox3.TabIndex = 166;
             // 
             // label3
@@ -131,7 +133,7 @@
             this.textBox4.Location = new System.Drawing.Point(25, 531);
             this.textBox4.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(450, 38);
+            this.textBox4.Size = new System.Drawing.Size(526, 38);
             this.textBox4.TabIndex = 168;
             // 
             // label4
@@ -146,7 +148,7 @@
             // 
             // button12
             // 
-            this.button12.Location = new System.Drawing.Point(25, 676);
+            this.button12.Location = new System.Drawing.Point(27, 676);
             this.button12.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(215, 88);
@@ -156,7 +158,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(260, 676);
+            this.button1.Location = new System.Drawing.Point(336, 676);
             this.button1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(215, 88);
@@ -186,20 +188,21 @@
             // 
             // label_titulo
             // 
-            this.label_titulo.Location = new System.Drawing.Point(17, 790);
+            this.label_titulo.Location = new System.Drawing.Point(77, 781);
             this.label_titulo.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label_titulo.Name = "label_titulo";
-            this.label_titulo.Size = new System.Drawing.Size(482, 80);
+            this.label_titulo.Size = new System.Drawing.Size(461, 80);
             this.label_titulo.TabIndex = 174;
             this.label_titulo.Text = "CENTRO SALUD SANTA ISABEL";
             this.label_titulo.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label_titulo.UseMnemonic = false;
             // 
-            // ConsultaEnfermeria
+            // FormConsultaEnfermeria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(506, 879);
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(587, 879);
             this.Controls.Add(this.label_titulo);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -217,7 +220,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.Name = "ConsultaEnfermeria";
+            this.Name = "FormConsultaEnfermeria";
             this.Text = "Consulta E";
             this.ResumeLayout(false);
             this.PerformLayout();

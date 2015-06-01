@@ -36,6 +36,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.ucHistoriaClinica1 = new CentroDeSaludSantaIsabel.UCHistoriaClinica();
             this.ucHistoriaClinica2 = new CentroDeSaludSantaIsabel.UCHistoriaClinica();
+            this.ucHistoriaClinica3 = new CentroDeSaludSantaIsabel.UCHistoriaClinica();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,15 +57,17 @@
             this.label7.Location = new System.Drawing.Point(27, 21);
             this.label7.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(155, 32);
+            this.label7.Size = new System.Drawing.Size(300, 32);
             this.label7.TabIndex = 156;
-            this.label7.Text = "PACIENTE";
+            this.label7.Text = "HISTORIAS CLINICAS";
             // 
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.flowLayoutPanel1.Controls.Add(this.ucHistoriaClinica1);
             this.flowLayoutPanel1.Controls.Add(this.ucHistoriaClinica2);
+            this.flowLayoutPanel1.Controls.Add(this.ucHistoriaClinica3);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(33, 121);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(956, 770);
@@ -112,12 +115,19 @@
             this.ucHistoriaClinica2.Size = new System.Drawing.Size(896, 185);
             this.ucHistoriaClinica2.TabIndex = 1;
             // 
-            // CentroSalud
+            // ucHistoriaClinica3
+            // 
+            this.ucHistoriaClinica3.Location = new System.Drawing.Point(3, 385);
+            this.ucHistoriaClinica3.Name = "ucHistoriaClinica3";
+            this.ucHistoriaClinica3.Size = new System.Drawing.Size(896, 185);
+            this.ucHistoriaClinica3.TabIndex = 2;
+            // 
+            // FormCentroSalud
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(1041, 1026);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button15);
@@ -126,7 +136,7 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.buttonNuevaHC);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Name = "CentroSalud";
+            this.Name = "FormCentroSalud";
             this.Text = "Centro de Salud";
             this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -144,6 +154,7 @@
         private System.Windows.Forms.Label label1;
         private UCHistoriaClinica ucHistoriaClinica1;
         private UCHistoriaClinica ucHistoriaClinica2;
+        private UCHistoriaClinica ucHistoriaClinica3;
     }
 }
 

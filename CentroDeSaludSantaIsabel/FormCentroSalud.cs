@@ -18,20 +18,10 @@ namespace CentroDeSaludSantaIsabel
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void button_medicamento_Click(object sender, EventArgs e)
         {
-            FormMedicamento formMed = new FormMedicamento();
+            Salud.FormMedicamento formMed = new Salud.FormMedicamento();
             formMed.Show();
-        }
-
-        private void label_titulo_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void buttonNuevaHC_Click(object sender, EventArgs e)
