@@ -12,12 +12,15 @@ namespace CentroSaludSantaIsabel
             ucp.labelApellido.Text = p.Apellidos;
             ucp.labelNombre.Text = p.Nombres;
             ucp.labelGrupoSanguineo.Text = p.GrupoSanguineo + " " + p.FactorRH;
-            ucp.labelSexo.Text = p.Sexo.ToString;
-            ucp.labelTelefono.Text = p.Telefono.ToString;
+            ucp.labelSexo.Text = p.Sexo.ToString();
+            ucp.labelTelefono.Text = p.Telefono.ToString();
+            return ucp;
 		}
 
-        public Paciente UCPatToPat(CentroDeSaludSantaIsabel.UCPaciente p)
+        public Paciente UCPatToPat(CentroDeSaludSantaIsabel.UCPaciente ucp)
 		{
+            Paciente p = new Paciente();
+            return p;
 
 		}
 	}
