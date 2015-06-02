@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace CentroDeSaludSantaIsabel
 {
-    static class Program
+    static class CentroSalud
     {
         /// <summary>
         /// The main entry point for the application.
@@ -17,7 +17,7 @@ namespace CentroDeSaludSantaIsabel
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new FormCentroSalud());
-            //
+            CentroSaludSantaIsabel.BufferPaciente bufferpaciente = CentroSaludSantaIsabel.BufferPaciente.Instance;
         }
     }
 }

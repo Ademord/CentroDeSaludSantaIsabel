@@ -22,5 +22,6 @@ namespace CentroDeSaludSantaIsabel
             Personas.FormPaciente f = new Personas.FormPaciente();
             f.Show();
         }
+
     }
 }

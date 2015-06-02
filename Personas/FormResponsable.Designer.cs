@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormResponsable));
             this.label_titulo = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.buttonCancelar = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
@@ -40,7 +40,7 @@
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.button_agregar = new System.Windows.Forms.Button();
+            this.buttonGuardar = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -67,15 +67,16 @@
             this.label_titulo.Text = "CENTRO SALUD SANTA ISABEL";
             this.label_titulo.UseMnemonic = false;
             // 
-            // button2
+            // buttonCancelar
             // 
-            this.button2.Location = new System.Drawing.Point(20, 731);
-            this.button2.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(183, 61);
-            this.button2.TabIndex = 158;
-            this.button2.Text = "Guardar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.buttonCancelar.Location = new System.Drawing.Point(20, 731);
+            this.buttonCancelar.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.buttonCancelar.Name = "buttonCancelar";
+            this.buttonCancelar.Size = new System.Drawing.Size(183, 61);
+            this.buttonCancelar.TabIndex = 158;
+            this.buttonCancelar.Text = "Cancelar";
+            this.buttonCancelar.UseVisualStyleBackColor = true;
+            this.buttonCancelar.Click += new System.EventHandler(this.buttonCancelar_Click_1);
             // 
             // button1
             // 
@@ -160,15 +161,16 @@
             this.label3.TabIndex = 141;
             this.label3.Text = "Fecha de Nacimiento";
             // 
-            // button_agregar
+            // buttonGuardar
             // 
-            this.button_agregar.Location = new System.Drawing.Point(718, 731);
-            this.button_agregar.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.button_agregar.Name = "button_agregar";
-            this.button_agregar.Size = new System.Drawing.Size(183, 61);
-            this.button_agregar.TabIndex = 136;
-            this.button_agregar.Text = "Guardar";
-            this.button_agregar.UseVisualStyleBackColor = true;
+            this.buttonGuardar.Location = new System.Drawing.Point(718, 731);
+            this.buttonGuardar.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.buttonGuardar.Name = "buttonGuardar";
+            this.buttonGuardar.Size = new System.Drawing.Size(183, 61);
+            this.buttonGuardar.TabIndex = 136;
+            this.buttonGuardar.Text = "Guardar";
+            this.buttonGuardar.UseVisualStyleBackColor = true;
+            this.buttonGuardar.Click += new System.EventHandler(this.buttonGuardar_Click_1);
             // 
             // textBox1
             // 
@@ -311,7 +313,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label_titulo);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.buttonCancelar);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.textBox10);
@@ -321,7 +323,7 @@
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button_agregar);
+            this.Controls.Add(this.buttonGuardar);
             this.Name = "FormResponsable";
             this.Text = "FormResponsable";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -333,7 +335,7 @@
         #endregion
 
         private System.Windows.Forms.Label label_titulo;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button buttonCancelar;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.TextBox textBox10;
@@ -343,7 +345,7 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button_agregar;
+        private System.Windows.Forms.Button buttonGuardar;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox2;

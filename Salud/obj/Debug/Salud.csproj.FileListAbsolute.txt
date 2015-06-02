@@ -2,9 +2,9 @@ C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabe
 C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\Salud\bin\Debug\Salud.exe
 C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\Salud\bin\Debug\Salud.pdb
 C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\Salud\obj\Debug\Salud.FormConsultaEnfermeria.resources
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\Salud\obj\Debug\Salud.FormConsultaMedica.resources
 C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\Salud\obj\Debug\Salud.FormMedicamento.resources
 C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\Salud\obj\Debug\Salud.Properties.Resources.resources
 C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\Salud\obj\Debug\Salud.csproj.GenerateResource.Cache
 C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\Salud\obj\Debug\Salud.exe
 C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\Salud\obj\Debug\Salud.pdb
-C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\Salud\obj\Debug\Salud.FormConsultaMedica.resources

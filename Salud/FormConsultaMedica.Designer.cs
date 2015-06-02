@@ -31,8 +31,8 @@
             this.label_titulo = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
+            this.buttonGuardar = new System.Windows.Forms.Button();
+            this.buttonCancelar = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
@@ -75,25 +75,27 @@
             this.label5.TabIndex = 188;
             this.label5.Text = "Consulta Medica";
             // 
-            // button1
+            // buttonGuardar
             // 
-            this.button1.Location = new System.Drawing.Point(570, 911);
-            this.button1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(215, 88);
-            this.button1.TabIndex = 187;
-            this.button1.Text = "Guardar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.buttonGuardar.Location = new System.Drawing.Point(570, 911);
+            this.buttonGuardar.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.buttonGuardar.Name = "buttonGuardar";
+            this.buttonGuardar.Size = new System.Drawing.Size(215, 88);
+            this.buttonGuardar.TabIndex = 187;
+            this.buttonGuardar.Text = "Guardar";
+            this.buttonGuardar.UseVisualStyleBackColor = true;
+            this.buttonGuardar.Click += new System.EventHandler(this.buttonGuardar_Click);
             // 
-            // button12
+            // buttonCancelar
             // 
-            this.button12.Location = new System.Drawing.Point(27, 911);
-            this.button12.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(215, 88);
-            this.button12.TabIndex = 186;
-            this.button12.Text = "Cancelar";
-            this.button12.UseVisualStyleBackColor = true;
+            this.buttonCancelar.Location = new System.Drawing.Point(27, 911);
+            this.buttonCancelar.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.buttonCancelar.Name = "buttonCancelar";
+            this.buttonCancelar.Size = new System.Drawing.Size(215, 88);
+            this.buttonCancelar.TabIndex = 186;
+            this.buttonCancelar.Text = "Cancelar";
+            this.buttonCancelar.UseVisualStyleBackColor = true;
+            this.buttonCancelar.Click += new System.EventHandler(this.buttonCancelar_Click);
             // 
             // label3
             // 
@@ -194,8 +196,8 @@
             this.Controls.Add(this.label_titulo);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button12);
+            this.Controls.Add(this.buttonGuardar);
+            this.Controls.Add(this.buttonCancelar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dateTimePicker1);
@@ -213,8 +215,8 @@
         private System.Windows.Forms.Label label_titulo;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button buttonGuardar;
+        private System.Windows.Forms.Button buttonCancelar;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;

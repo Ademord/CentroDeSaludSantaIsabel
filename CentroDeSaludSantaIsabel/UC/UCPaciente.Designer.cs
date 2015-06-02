@@ -35,8 +35,8 @@
             this.labelNombre = new System.Windows.Forms.Label();
             this.pictureBoxFoto = new System.Windows.Forms.PictureBox();
             this.labelTelefono = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.labelSexo = new System.Windows.Forms.Label();
+            this.labelGrupoSanguineo = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFoto)).BeginInit();
             this.SuspendLayout();
             // 
@@ -104,25 +104,25 @@
             this.labelTelefono.TabIndex = 152;
             this.labelTelefono.Text = "Telefono";
             // 
-            // label1
+            // labelSexo
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(641, 99);
-            this.label1.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 32);
-            this.label1.TabIndex = 153;
-            this.label1.Text = "Sexo";
+            this.labelSexo.AutoSize = true;
+            this.labelSexo.Location = new System.Drawing.Point(641, 99);
+            this.labelSexo.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.labelSexo.Name = "labelSexo";
+            this.labelSexo.Size = new System.Drawing.Size(80, 32);
+            this.labelSexo.TabIndex = 153;
+            this.labelSexo.Text = "Sexo";
             // 
-            // label2
+            // labelGrupoSanguineo
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(945, 55);
-            this.label2.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(239, 32);
-            this.label2.TabIndex = 154;
-            this.label2.Text = "Grupo Sanguineo";
+            this.labelGrupoSanguineo.AutoSize = true;
+            this.labelGrupoSanguineo.Location = new System.Drawing.Point(945, 55);
+            this.labelGrupoSanguineo.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.labelGrupoSanguineo.Name = "labelGrupoSanguineo";
+            this.labelGrupoSanguineo.Size = new System.Drawing.Size(239, 32);
+            this.labelGrupoSanguineo.TabIndex = 154;
+            this.labelGrupoSanguineo.Text = "Grupo Sanguineo";
             // 
             // UCPaciente
             // 
@@ -130,8 +130,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.labelGrupoSanguineo);
+            this.Controls.Add(this.labelSexo);
             this.Controls.Add(this.labelTelefono);
             this.Controls.Add(this.pictureBoxFoto);
             this.Controls.Add(this.labelDescripcion);
@@ -148,13 +148,13 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBoxFoto;
-        private System.Windows.Forms.Label labelDescripcion;
-        private System.Windows.Forms.Button buttonGestionarPaciente;
-        private System.Windows.Forms.Label labelApellido;
-        private System.Windows.Forms.Label labelNombre;
-        private System.Windows.Forms.Label labelTelefono;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        public System.Windows.Forms.PictureBox pictureBoxFoto;
+        public System.Windows.Forms.Label labelDescripcion;
+        public System.Windows.Forms.Button buttonGestionarPaciente;
+        public System.Windows.Forms.Label labelApellido;
+        public System.Windows.Forms.Label labelNombre;
+        public System.Windows.Forms.Label labelTelefono;
+        public System.Windows.Forms.Label labelSexo;
+        public System.Windows.Forms.Label labelGrupoSanguineo;
     }
 }

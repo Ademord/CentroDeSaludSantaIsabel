@@ -32,6 +32,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Npgsql, Version=2.2.5.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Npgsql.2.2.5\lib\net45\Npgsql.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,6 +48,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Logica\AdapatadorUCPaciente.cs" />
+    <Compile Include="Logica\AdaptadorBD.cs" />
+    <Compile Include="Logica\AdaptadorBDDTPaciente.cs" />
+    <Compile Include="Logica\AdaptadorDTPaciente.cs" />
+    <Compile Include="Logica\AdaptadorUCHClinica.cs" />
+    <Compile Include="Logica\AdaptadorUIPaciente.cs" />
+    <Compile Include="Logica\BD.cs" />
+    <Compile Include="Logica\BufferBD.cs" />
+    <Compile Include="Logica\BufferPaciente.cs" />
+    <Compile Include="Logica\CTRLDTPaciente.cs" />
+    <Compile Include="Logica\CTRLPaciente.cs" />
+    <Compile Include="Logica\DTPaciente.cs" />
     <Compile Include="FormCentroSalud.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -56,8 +72,13 @@
     <Compile Include="FormHistoriaClinica.Designer.cs">
       <DependentUpon>FormHistoriaClinica.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="Logica\Medico.cs" />
+    <Compile Include="Logica\Paciente.cs" />
+    <Compile Include="Logica\Persona.cs" />
+    <Compile Include="Logica\CentroSalud.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Logica\Recepcionista.cs" />
+    <Compile Include="Logica\Responsable.cs" />
     <Compile Include="UC\UCConsultaEnfermeria.cs">
       <SubType>UserControl</SubType>
     </Compile>

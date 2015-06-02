@@ -10,9 +10,9 @@ C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabe
 C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\Personas\bin\Debug\fr\Npgsql.resources.dll
 C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\Personas\bin\Debug\ja\Npgsql.resources.dll
 C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\Personas\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\Personas\obj\Debug\Personas.FormPaciente.resources
+C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\Personas\obj\Debug\Personas.FormResponsable.resources
 C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\Personas\obj\Debug\Personas.Properties.Resources.resources
 C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\Personas\obj\Debug\Personas.csproj.GenerateResource.Cache
 C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\Personas\obj\Debug\Personas.exe
 C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\Personas\obj\Debug\Personas.pdb
-C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\Personas\obj\Debug\Personas.FormPaciente.resources
-C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\Personas\obj\Debug\Personas.FormResponsable.resources

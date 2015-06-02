@@ -19,15 +19,36 @@ namespace CentroDeSaludSantaIsabel
 
         private void buttonNuevaConsultaEnfermeria_Click(object sender, EventArgs e)
         {
-            Salud.FormConsultaEnfermeria formCE = new Salud.FormConsultaEnfermeria();
-            formCE.Show();
+            Salud.FormConsultaEnfermeria form = new Salud.FormConsultaEnfermeria();
+            DialogResult res = form.ShowDialog();
+            if (res == DialogResult.OK) flowLayoutPanelConsulta.Controls.Add(new UCConsultaEnfermeria());
 
         }
 
         private void buttonbuttonNuevaConsultaMedica_Click(object sender, EventArgs e)
         {
             Salud.FormConsultaMedica form = new Salud.FormConsultaMedica();
-            form.Show();
+            DialogResult res = form.ShowDialog();
+            if (res == DialogResult.OK) flowLayoutPanelConsulta.Controls.Add(new UCConsultaMedica());
+        }
+
+        private void buttonGuardar_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.OK;
+            this.Close();
+        }
+
+        private void buttonCancelar_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.Cancel;
+            this.Close();
+        }
+
+        private void buttonNuevoResponsable_Click(object sender, EventArgs e)
+        {
+            Personas.FormResponsable form = new Personas.FormResponsable();
+            DialogResult res = form.ShowDialog();
+            if (res == DialogResult.OK) flowLayoutPanelResponsable.Controls.Add(new UCResponsable());
         }
 
     }

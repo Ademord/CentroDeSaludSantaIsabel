@@ -16,5 +16,18 @@ namespace Salud
         {
             InitializeComponent();
         }
+        private void buttonCancelar_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.Cancel;
+            this.Close();
+
+        }
+
+        private void buttonGuardar_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.OK;
+            this.Close();
+
+        }
     }
 }

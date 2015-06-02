@@ -39,6 +39,7 @@ namespace Personas
                 cmd.CommandText = "INSERT INTO paciente (nombre, apellido_p, apellido_m) VALUES (@nombre, @apellidoP, @apellidoM);";
                 cmd.Parameters.AddWithValue("nombre", nombre);
                 cmd.Parameters.AddWithValue("apellidoP", apellidoP);
+                
                 var reader = cmd.ExecuteReader();
                 reader.Read();
 
