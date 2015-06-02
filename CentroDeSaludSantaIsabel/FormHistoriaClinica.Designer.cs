@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormHistoriaClinica));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPageAdmin = new System.Windows.Forms.TabPage();
-            this.ucPaciente1 = new CentroDeSaludSantaIsabel.UCPaciente();
             this.buttonNuevoResponsable = new System.Windows.Forms.Button();
             this.flowLayoutPanelResponsable = new System.Windows.Forms.FlowLayoutPanel();
             this.tabPageAnteced = new System.Windows.Forms.TabPage();
@@ -58,13 +58,16 @@
             this.buttonBuscar = new System.Windows.Forms.Button();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.flowLayoutPanelConsulta = new System.Windows.Forms.FlowLayoutPanel();
-            this.label_titulo = new System.Windows.Forms.Label();
             this.buttonGuardar = new System.Windows.Forms.Button();
             this.buttonCancelar = new System.Windows.Forms.Button();
+            this.ucPaciente1 = new CentroDeSaludSantaIsabel.UCPaciente();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPageAdmin.SuspendLayout();
             this.tabPageAnteced.SuspendLayout();
             this.tabPageConsulta.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -92,15 +95,6 @@
             this.tabPageAdmin.Size = new System.Drawing.Size(1530, 665);
             this.tabPageAdmin.TabIndex = 1;
             this.tabPageAdmin.Text = "Administrativos";
-            // 
-            // ucPaciente1
-            // 
-            this.ucPaciente1.AutoSize = true;
-            this.ucPaciente1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ucPaciente1.Location = new System.Drawing.Point(3, 7);
-            this.ucPaciente1.Name = "ucPaciente1";
-            this.ucPaciente1.Size = new System.Drawing.Size(1524, 180);
-            this.ucPaciente1.TabIndex = 161;
             // 
             // buttonNuevoResponsable
             // 
@@ -396,16 +390,6 @@
             this.flowLayoutPanelConsulta.Size = new System.Drawing.Size(1527, 554);
             this.flowLayoutPanelConsulta.TabIndex = 0;
             // 
-            // label_titulo
-            // 
-            this.label_titulo.Location = new System.Drawing.Point(557, 884);
-            this.label_titulo.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
-            this.label_titulo.Name = "label_titulo";
-            this.label_titulo.Size = new System.Drawing.Size(482, 80);
-            this.label_titulo.TabIndex = 134;
-            this.label_titulo.Text = "CENTRO SALUD SANTA ISABEL";
-            this.label_titulo.UseMnemonic = false;
-            // 
             // buttonGuardar
             // 
             this.buttonGuardar.Location = new System.Drawing.Point(1332, 753);
@@ -428,6 +412,40 @@
             this.buttonCancelar.UseVisualStyleBackColor = true;
             this.buttonCancelar.Click += new System.EventHandler(this.buttonCancelar_Click);
             // 
+            // ucPaciente1
+            // 
+            this.ucPaciente1.AutoSize = true;
+            this.ucPaciente1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.ucPaciente1.Location = new System.Drawing.Point(3, 7);
+            this.ucPaciente1.Name = "ucPaciente1";
+            this.ucPaciente1.Size = new System.Drawing.Size(1524, 180);
+            this.ucPaciente1.TabIndex = 161;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Location = new System.Drawing.Point(677, 753);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(231, 178);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 163;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Bebas Neue", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(15, 934);
+            this.label1.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(1560, 80);
+            this.label1.TabIndex = 162;
+            this.label1.Text = "CENTRO SALUD SANTA ISABEL";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label1.UseMnemonic = false;
+            // 
             // FormHistoriaClinica
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
@@ -435,10 +453,11 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(1585, 1023);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonCancelar);
             this.Controls.Add(this.buttonGuardar);
             this.Controls.Add(this.tabControl1);
-            this.Controls.Add(this.label_titulo);
             this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.Name = "FormHistoriaClinica";
             this.Text = "Historia Clinica";
@@ -449,6 +468,7 @@
             this.tabPageAnteced.PerformLayout();
             this.tabPageConsulta.ResumeLayout(false);
             this.tabPageConsulta.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -466,7 +486,6 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label_titulo;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TabPage tabPageConsulta;
@@ -488,6 +507,8 @@
         private System.Windows.Forms.Button buttonGuardar;
         private System.Windows.Forms.Button buttonCancelar;
         private UCPaciente ucPaciente1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
 
     }
 }

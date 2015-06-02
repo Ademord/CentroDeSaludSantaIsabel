@@ -6,7 +6,7 @@ namespace CentroSaludSantaIsabel
 {
 	public class CTRLPaciente
 	{
-        public void guardarPaciente()
+        public void guardarPaciente(Paciente p)
         {
             
         }

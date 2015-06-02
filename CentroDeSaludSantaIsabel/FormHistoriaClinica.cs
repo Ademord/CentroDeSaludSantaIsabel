@@ -36,6 +36,9 @@ namespace CentroDeSaludSantaIsabel
         {
             this.DialogResult = DialogResult.OK;
             this.Close();
+
+            //guardar paciente
+            CentroSaludSantaIsabel.AdapatadorUCPaciente
         }
 
         private void buttonCancelar_Click(object sender, EventArgs e)
