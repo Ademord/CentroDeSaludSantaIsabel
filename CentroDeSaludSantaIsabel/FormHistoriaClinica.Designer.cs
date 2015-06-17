@@ -1,4 +1,4 @@
-﻿namespace CentroDeSaludSantaIsabel
+﻿namespace CentroSaludSantaIsabel
 {
     partial class FormHistoriaClinica
     {
@@ -60,7 +60,7 @@
             this.flowLayoutPanelConsulta = new System.Windows.Forms.FlowLayoutPanel();
             this.buttonGuardar = new System.Windows.Forms.Button();
             this.buttonCancelar = new System.Windows.Forms.Button();
-            this.ucPaciente1 = new CentroDeSaludSantaIsabel.UCPaciente();
+            this.ucPaciente1 = new CentroSaludSantaIsabel.UCPaciente();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();

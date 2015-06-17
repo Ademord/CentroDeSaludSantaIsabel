@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 
-namespace CentroDeSaludSantaIsabel
+namespace CentroSaludSantaIsabel
 {
     public partial class FormCentroSalud : Form
     {
@@ -54,6 +54,12 @@ namespace CentroDeSaludSantaIsabel
             }
         }
 
+        private void buttonBuscar_Click(object sender, EventArgs e)
+        {
+            CTRLHistoriaClinica.
+        }
+
+ 
 
     }
 }

@@ -7,8 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using CentroDeSaludSantaIsabel;
-namespace CentroDeSaludSantaIsabel
+using CentroSaludSantaIsabel;
+namespace CentroSaludSantaIsabel
 {
     public partial class FormHistoriaClinica : Form
     {
@@ -34,6 +34,7 @@ namespace CentroDeSaludSantaIsabel
 
         private void buttonGuardar_Click(object sender, EventArgs e)
         {
+            CTRLPaciente.guardarBufferEnBD();
             this.DialogResult = DialogResult.OK;
             this.Close();
 

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CentroDeSaludSantaIsabel.Properties
+namespace CentroSaludSantaIsabel.Properties
 {
 
 

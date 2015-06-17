@@ -1,4 +1,4 @@
-﻿namespace CentroDeSaludSantaIsabel
+﻿namespace CentroSaludSantaIsabel
 {
     partial class UCHistoriaClinica
     {
@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UCHistoriaClinica));
-            this.labelTelefono = new System.Windows.Forms.Label();
             this.pictureBoxFoto = new System.Windows.Forms.PictureBox();
             this.labelDescripcion = new System.Windows.Forms.Label();
             this.buttonPaciente = new System.Windows.Forms.Button();
@@ -38,19 +37,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFoto)).BeginInit();
             this.SuspendLayout();
             // 
-            // labelTelefono
-            // 
-            this.labelTelefono.AutoSize = true;
-            this.labelTelefono.Location = new System.Drawing.Point(188, 139);
-            this.labelTelefono.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
-            this.labelTelefono.Name = "labelTelefono";
-            this.labelTelefono.Size = new System.Drawing.Size(135, 32);
-            this.labelTelefono.TabIndex = 158;
-            this.labelTelefono.Text = "Telefono:";
-            // 
             // pictureBoxFoto
             // 
-            this.pictureBoxFoto.BackgroundImage = global::CentroDeSaludSantaIsabel.Properties.Resources.default_user_icon;
             this.pictureBoxFoto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBoxFoto.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxFoto.InitialImage")));
             this.pictureBoxFoto.Location = new System.Drawing.Point(13, 10);
@@ -105,7 +93,6 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.labelTelefono);
             this.Controls.Add(this.pictureBoxFoto);
             this.Controls.Add(this.labelDescripcion);
             this.Controls.Add(this.buttonPaciente);
@@ -121,7 +108,6 @@
 
         #endregion
 
-        public System.Windows.Forms.Label labelTelefono;
         public System.Windows.Forms.PictureBox pictureBoxFoto;
         public System.Windows.Forms.Label labelDescripcion;
         public System.Windows.Forms.Button buttonPaciente;

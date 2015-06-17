@@ -1,4 +1,4 @@
-﻿namespace CentroDeSaludSantaIsabel
+﻿namespace CentroSaludSantaIsabel
 {
     partial class antecedentes_en_medicamentos_en_enfermedades_cronicas
     {

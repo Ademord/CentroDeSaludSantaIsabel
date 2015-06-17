@@ -12,7 +12,10 @@ namespace CentroSaludSantaIsabel
         public static string localhost { get; set; }
         public static string user { get; set; }
         public static string password { get; set; }
-
+        public const int INSTRUCTION_INSERT = 0;
+        public const int INSTRUCTION_UPDATE = 1;
+        public const int INSTRUCTION_DELETE = 2;
+        public const int NO_INDEX = 0;
         private BD() { }
         public static BD Instance
         {
@@ -31,22 +34,16 @@ namespace CentroSaludSantaIsabel
 
 		public void open()
 		{
-            conn = new NpgsqlConnection("Host=" + localhost + "; User=" + user + "; Password=" + password);
+            instance.conn = new NpgsqlConnection("Host=" + localhost + "; User=" + user + "; Password=" + password);
             conn.Open();
 		}
 
 		public void execute(NpgsqlCommand cmd)
 		{
-            try
-            {
+           
                 var reader = cmd.ExecuteReader();
                 reader.Read();
-            }
-            catch (Exception _error)
-            {
-                System.Windows.Forms.MessageBox.Show("Error de bd");
-            }
-		}
+  		}
 
 		public void close()
 		{

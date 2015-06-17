@@ -6,10 +6,8 @@ namespace CentroSaludSantaIsabel
 {
 	public class Paciente : Persona
 	{
-		public String Nacionalidad { get; set; }
-        public String IdiomaHablado { get; set; }
         public String IdiomaMaterno { get; set; }
-        public string GrupoSanguineo { get; set; }
-        public bool FactorRH { get; set; }
+        public String GrupoSanguineo { get; set; }
+        public String FactorRH { get; set; }
 	}
 }

@@ -29,44 +29,44 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPaciente));
-            this.button_agregar = new System.Windows.Forms.Button();
+            this.buttonGuardar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox_Nombre = new System.Windows.Forms.TextBox();
-            this.textBox_ApellidoPat = new System.Windows.Forms.TextBox();
+            this.textBoxNombre = new System.Windows.Forms.TextBox();
+            this.textBoxApellidos = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.dateTimePickerFechaNacimiento = new System.Windows.Forms.DateTimePicker();
+            this.comboBoxSexo = new System.Windows.Forms.ComboBox();
+            this.comboBoxGrupoSanguineo = new System.Windows.Forms.ComboBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboBoxFactorRH = new System.Windows.Forms.ComboBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonBuscar = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.textBoxIdiomaMaterno = new System.Windows.Forms.TextBox();
+            this.buttonCancelar = new System.Windows.Forms.Button();
             this.label_titulo = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBoxEstadoCivil = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBoxOcupacion = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBoxNacionalidad = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button_agregar
+            // buttonGuardar
             // 
-            this.button_agregar.Location = new System.Drawing.Point(746, 667);
-            this.button_agregar.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.button_agregar.Name = "button_agregar";
-            this.button_agregar.Size = new System.Drawing.Size(183, 61);
-            this.button_agregar.TabIndex = 0;
-            this.button_agregar.Text = "Guardar";
-            this.button_agregar.UseVisualStyleBackColor = true;
-            this.button_agregar.Click += new System.EventHandler(this.button1_Click);
+            this.buttonGuardar.Location = new System.Drawing.Point(746, 667);
+            this.buttonGuardar.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.buttonGuardar.Name = "buttonGuardar";
+            this.buttonGuardar.Size = new System.Drawing.Size(183, 61);
+            this.buttonGuardar.TabIndex = 0;
+            this.buttonGuardar.Text = "Guardar";
+            this.buttonGuardar.UseVisualStyleBackColor = true;
+            this.buttonGuardar.Click += new System.EventHandler(this.buttonGuardar_Click);
             // 
             // label1
             // 
@@ -78,21 +78,21 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Nombre";
             // 
-            // textBox_Nombre
+            // textBoxNombre
             // 
-            this.textBox_Nombre.Location = new System.Drawing.Point(290, 66);
-            this.textBox_Nombre.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.textBox_Nombre.Name = "textBox_Nombre";
-            this.textBox_Nombre.Size = new System.Drawing.Size(260, 38);
-            this.textBox_Nombre.TabIndex = 2;
+            this.textBoxNombre.Location = new System.Drawing.Point(290, 66);
+            this.textBoxNombre.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.textBoxNombre.Name = "textBoxNombre";
+            this.textBoxNombre.Size = new System.Drawing.Size(260, 38);
+            this.textBoxNombre.TabIndex = 2;
             // 
-            // textBox_ApellidoPat
+            // textBoxApellidos
             // 
-            this.textBox_ApellidoPat.Location = new System.Drawing.Point(290, 175);
-            this.textBox_ApellidoPat.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.textBox_ApellidoPat.Name = "textBox_ApellidoPat";
-            this.textBox_ApellidoPat.Size = new System.Drawing.Size(260, 38);
-            this.textBox_ApellidoPat.TabIndex = 4;
+            this.textBoxApellidos.Location = new System.Drawing.Point(290, 175);
+            this.textBoxApellidos.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.textBoxApellidos.Name = "textBoxApellidos";
+            this.textBoxApellidos.Size = new System.Drawing.Size(260, 38);
+            this.textBoxApellidos.TabIndex = 4;
             // 
             // label2
             // 
@@ -124,36 +124,39 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "Sexo";
             // 
-            // dateTimePicker1
+            // dateTimePickerFechaNacimiento
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(21, 336);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(581, 38);
-            this.dateTimePicker1.TabIndex = 11;
+            this.dateTimePickerFechaNacimiento.Location = new System.Drawing.Point(21, 336);
+            this.dateTimePickerFechaNacimiento.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.dateTimePickerFechaNacimiento.Name = "dateTimePickerFechaNacimiento";
+            this.dateTimePickerFechaNacimiento.Size = new System.Drawing.Size(581, 38);
+            this.dateTimePickerFechaNacimiento.TabIndex = 11;
             // 
-            // comboBox1
+            // comboBoxSexo
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(667, 342);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(262, 39);
-            this.comboBox1.TabIndex = 26;
+            this.comboBoxSexo.FormattingEnabled = true;
+            this.comboBoxSexo.Items.AddRange(new object[] {
+            "Hombre",
+            "Mujer"});
+            this.comboBoxSexo.Location = new System.Drawing.Point(667, 342);
+            this.comboBoxSexo.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.comboBoxSexo.Name = "comboBoxSexo";
+            this.comboBoxSexo.Size = new System.Drawing.Size(262, 39);
+            this.comboBoxSexo.TabIndex = 26;
             // 
-            // comboBox2
+            // comboBoxGrupoSanguineo
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.comboBoxGrupoSanguineo.FormattingEnabled = true;
+            this.comboBoxGrupoSanguineo.Items.AddRange(new object[] {
             "A",
             "B",
             "AB",
             "O"});
-            this.comboBox2.Location = new System.Drawing.Point(342, 572);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(260, 39);
-            this.comboBox2.TabIndex = 32;
+            this.comboBoxGrupoSanguineo.Location = new System.Drawing.Point(342, 572);
+            this.comboBoxGrupoSanguineo.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.comboBoxGrupoSanguineo.Name = "comboBoxGrupoSanguineo";
+            this.comboBoxGrupoSanguineo.Size = new System.Drawing.Size(260, 39);
+            this.comboBoxGrupoSanguineo.TabIndex = 32;
             // 
             // label14
             // 
@@ -165,14 +168,17 @@
             this.label14.TabIndex = 31;
             this.label14.Text = "Grupo Sanguineo";
             // 
-            // comboBox3
+            // comboBoxFactorRH
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(667, 572);
-            this.comboBox3.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(262, 39);
-            this.comboBox3.TabIndex = 34;
+            this.comboBoxFactorRH.FormattingEnabled = true;
+            this.comboBoxFactorRH.Items.AddRange(new object[] {
+            "Positivo",
+            "Negativo"});
+            this.comboBoxFactorRH.Location = new System.Drawing.Point(667, 572);
+            this.comboBoxFactorRH.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.comboBoxFactorRH.Name = "comboBoxFactorRH";
+            this.comboBoxFactorRH.Size = new System.Drawing.Size(262, 39);
+            this.comboBoxFactorRH.TabIndex = 34;
             // 
             // label15
             // 
@@ -184,15 +190,15 @@
             this.label15.TabIndex = 33;
             this.label15.Text = "Factor RH";
             // 
-            // button1
+            // buttonBuscar
             // 
-            this.button1.Location = new System.Drawing.Point(741, 27);
-            this.button1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(183, 62);
-            this.button1.TabIndex = 37;
-            this.button1.Text = "Buscar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.buttonBuscar.Location = new System.Drawing.Point(741, 27);
+            this.buttonBuscar.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.buttonBuscar.Name = "buttonBuscar";
+            this.buttonBuscar.Size = new System.Drawing.Size(183, 62);
+            this.buttonBuscar.TabIndex = 37;
+            this.buttonBuscar.Text = "Buscar";
+            this.buttonBuscar.UseVisualStyleBackColor = true;
             // 
             // label9
             // 
@@ -204,23 +210,23 @@
             this.label9.TabIndex = 18;
             this.label9.Text = "Idioma Materno";
             // 
-            // textBox7
+            // textBoxIdiomaMaterno
             // 
-            this.textBox7.Location = new System.Drawing.Point(24, 572);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(260, 38);
-            this.textBox7.TabIndex = 19;
+            this.textBoxIdiomaMaterno.Location = new System.Drawing.Point(24, 572);
+            this.textBoxIdiomaMaterno.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.textBoxIdiomaMaterno.Name = "textBoxIdiomaMaterno";
+            this.textBoxIdiomaMaterno.Size = new System.Drawing.Size(260, 38);
+            this.textBoxIdiomaMaterno.TabIndex = 19;
             // 
-            // button2
+            // buttonCancelar
             // 
-            this.button2.Location = new System.Drawing.Point(24, 667);
-            this.button2.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(183, 61);
-            this.button2.TabIndex = 38;
-            this.button2.Text = "Guardar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.buttonCancelar.Location = new System.Drawing.Point(24, 667);
+            this.buttonCancelar.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.buttonCancelar.Name = "buttonCancelar";
+            this.buttonCancelar.Size = new System.Drawing.Size(183, 61);
+            this.buttonCancelar.TabIndex = 38;
+            this.buttonCancelar.Text = "Cancelar";
+            this.buttonCancelar.UseVisualStyleBackColor = true;
             // 
             // label_titulo
             // 
@@ -232,13 +238,13 @@
             this.label_titulo.Text = "CENTRO SALUD SANTA ISABEL";
             this.label_titulo.UseMnemonic = false;
             // 
-            // textBox5
+            // textBoxEstadoCivil
             // 
-            this.textBox5.Location = new System.Drawing.Point(667, 455);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(262, 38);
-            this.textBox5.TabIndex = 173;
+            this.textBoxEstadoCivil.Location = new System.Drawing.Point(667, 455);
+            this.textBoxEstadoCivil.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.textBoxEstadoCivil.Name = "textBoxEstadoCivil";
+            this.textBoxEstadoCivil.Size = new System.Drawing.Size(262, 38);
+            this.textBoxEstadoCivil.TabIndex = 173;
             // 
             // label5
             // 
@@ -250,13 +256,13 @@
             this.label5.TabIndex = 172;
             this.label5.Text = "Estado Civil";
             // 
-            // textBox10
+            // textBoxOcupacion
             // 
-            this.textBox10.Location = new System.Drawing.Point(342, 455);
-            this.textBox10.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(260, 38);
-            this.textBox10.TabIndex = 171;
+            this.textBoxOcupacion.Location = new System.Drawing.Point(340, 455);
+            this.textBoxOcupacion.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.textBoxOcupacion.Name = "textBoxOcupacion";
+            this.textBoxOcupacion.Size = new System.Drawing.Size(260, 38);
+            this.textBoxOcupacion.TabIndex = 171;
             // 
             // label12
             // 
@@ -268,13 +274,13 @@
             this.label12.TabIndex = 170;
             this.label12.Text = "Ocupacion";
             // 
-            // textBox3
+            // textBoxNacionalidad
             // 
-            this.textBox3.Location = new System.Drawing.Point(26, 455);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(258, 38);
-            this.textBox3.TabIndex = 169;
+            this.textBoxNacionalidad.Location = new System.Drawing.Point(26, 455);
+            this.textBoxNacionalidad.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.textBoxNacionalidad.Name = "textBoxNacionalidad";
+            this.textBoxNacionalidad.Size = new System.Drawing.Size(258, 38);
+            this.textBoxNacionalidad.TabIndex = 169;
             // 
             // label6
             // 
@@ -306,30 +312,30 @@
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(967, 906);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textBoxEstadoCivil);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.textBoxOcupacion);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBoxNacionalidad);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label_titulo);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox3);
+            this.Controls.Add(this.buttonCancelar);
+            this.Controls.Add(this.buttonBuscar);
+            this.Controls.Add(this.comboBoxFactorRH);
             this.Controls.Add(this.label15);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.comboBoxGrupoSanguineo);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.comboBoxSexo);
+            this.Controls.Add(this.textBoxIdiomaMaterno);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.dateTimePickerFechaNacimiento);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox_ApellidoPat);
+            this.Controls.Add(this.textBoxApellidos);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox_Nombre);
+            this.Controls.Add(this.textBoxNombre);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button_agregar);
+            this.Controls.Add(this.buttonGuardar);
             this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.Name = "FormPaciente";
             this.Text = "Paciente";
@@ -342,30 +348,31 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button_agregar;
+        private System.Windows.Forms.Button buttonGuardar;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox_Nombre;
-        private System.Windows.Forms.TextBox textBox_ApellidoPat;
+       
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
+        public System.Windows.Forms.ComboBox comboBoxSexo;
+        public System.Windows.Forms.ComboBox comboBoxGrupoSanguineo;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.ComboBox comboBox3;
+        public System.Windows.Forms.ComboBox comboBoxFactorRH;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonBuscar;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button buttonCancelar;
         private System.Windows.Forms.Label label_titulo;
-        private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox10;
+        public System.Windows.Forms.TextBox textBoxNombre;
+        public System.Windows.Forms.TextBox textBoxApellidos;
+        public System.Windows.Forms.TextBox textBoxIdiomaMaterno;
+        public System.Windows.Forms.TextBox textBoxOcupacion;
+        public System.Windows.Forms.TextBox textBoxNacionalidad;
+        public System.Windows.Forms.TextBox textBoxEstadoCivil;
+        public System.Windows.Forms.DateTimePicker dateTimePickerFechaNacimiento;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        public System.Windows.Forms.PictureBox pictureBox1;
     }
 }

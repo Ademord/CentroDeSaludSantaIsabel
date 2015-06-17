@@ -1,4 +1,4 @@
-﻿namespace CentroDeSaludSantaIsabel
+﻿namespace CentroSaludSantaIsabel
 {
     partial class Factores_de_Riesgo_Sociales
     {

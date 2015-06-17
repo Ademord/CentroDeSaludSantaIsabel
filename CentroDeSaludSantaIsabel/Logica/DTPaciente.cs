@@ -15,5 +15,9 @@ namespace CentroSaludSantaIsabel
             paciente = _p;
             id = _id;
 		}
+        public DTPaciente(Paciente _p)
+        {
+            paciente = _p;
+        }
 	}
 }

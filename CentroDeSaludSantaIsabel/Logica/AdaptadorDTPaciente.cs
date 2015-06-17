@@ -4,16 +4,20 @@ using System.Text;
 
 namespace CentroSaludSantaIsabel
 {
-	public class AdaptadorDTPaciente
+	public static class AdaptadorDTPaciente
 	{
-		public Paciente DTPatToPat(DTPaciente p)
+        public static Paciente traducir(DTPaciente p)
 		{
             return p.paciente;
 		}
 
-		public DTPaciente PatToDTPat(Paciente p, int id)
+        public static DTPaciente traducir(Paciente p, int id)
 		{
             return new DTPaciente(p, id);
   		}
+        public static DTPaciente traducir(Paciente p)
+        {
+            return new DTPaciente(p);
+        }
 	}
 }

@@ -1,4 +1,4 @@
-﻿namespace CentroDeSaludSantaIsabel
+﻿namespace CentroSaludSantaIsabel
 {
     partial class FormCentroSalud
     {
@@ -31,8 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormCentroSalud));
             this.buttonNuevaHC = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
-            this.button15 = new System.Windows.Forms.Button();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.buttonBuscar = new System.Windows.Forms.Button();
+            this.textBoxEntryBusqueda = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -57,27 +57,28 @@
             this.label7.Location = new System.Drawing.Point(299, 71);
             this.label7.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(306, 56);
+            this.label7.Size = new System.Drawing.Size(311, 58);
             this.label7.TabIndex = 156;
             this.label7.Text = "HISTORIAS CLINICAS";
             // 
-            // button15
+            // buttonBuscar
             // 
-            this.button15.Location = new System.Drawing.Point(888, 120);
-            this.button15.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(179, 65);
-            this.button15.TabIndex = 159;
-            this.button15.Text = "Buscar";
-            this.button15.UseVisualStyleBackColor = true;
+            this.buttonBuscar.Location = new System.Drawing.Point(888, 120);
+            this.buttonBuscar.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.buttonBuscar.Name = "buttonBuscar";
+            this.buttonBuscar.Size = new System.Drawing.Size(179, 65);
+            this.buttonBuscar.TabIndex = 159;
+            this.buttonBuscar.Text = "Buscar";
+            this.buttonBuscar.UseVisualStyleBackColor = true;
+            this.buttonBuscar.Click += new System.EventHandler(this.buttonBuscar_Click);
             // 
-            // textBox7
+            // textBoxEntryBusqueda
             // 
-            this.textBox7.Location = new System.Drawing.Point(306, 134);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(566, 38);
-            this.textBox7.TabIndex = 158;
+            this.textBoxEntryBusqueda.Location = new System.Drawing.Point(306, 134);
+            this.textBoxEntryBusqueda.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.textBoxEntryBusqueda.Name = "textBoxEntryBusqueda";
+            this.textBoxEntryBusqueda.Size = new System.Drawing.Size(566, 38);
+            this.textBoxEntryBusqueda.TabIndex = 158;
             // 
             // label1
             // 
@@ -113,8 +114,8 @@
             this.ClientSize = new System.Drawing.Size(1585, 1113);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button15);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.buttonBuscar);
+            this.Controls.Add(this.textBoxEntryBusqueda);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.buttonNuevaHC);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -133,8 +134,8 @@
 
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button buttonNuevaHC;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Button buttonBuscar;
+        private System.Windows.Forms.TextBox textBoxEntryBusqueda;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
     }

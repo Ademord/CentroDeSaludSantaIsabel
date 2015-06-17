@@ -52,7 +52,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBoxNombre = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -274,13 +274,13 @@
             this.label10.TabIndex = 177;
             this.label10.Text = "Apellidos";
             // 
-            // textBox7
+            // textBoxNombre
             // 
-            this.textBox7.Location = new System.Drawing.Point(288, 55);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(260, 38);
-            this.textBox7.TabIndex = 176;
+            this.textBoxNombre.Location = new System.Drawing.Point(288, 55);
+            this.textBoxNombre.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.textBoxNombre.Name = "textBoxNombre";
+            this.textBoxNombre.Size = new System.Drawing.Size(260, 38);
+            this.textBoxNombre.TabIndex = 176;
             // 
             // label11
             // 
@@ -302,7 +302,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.textBoxNombre);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.label9);
@@ -357,7 +357,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox textBoxNombre;
         private System.Windows.Forms.Label label11;
     }
 }

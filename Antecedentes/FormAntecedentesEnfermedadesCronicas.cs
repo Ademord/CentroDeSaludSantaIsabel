@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CentroDeSaludSantaIsabel
+namespace CentroSaludSantaIsabel
 {
     public partial class antecedentes_en_medicamentos_en_enfermedades_cronicas : Form
     {

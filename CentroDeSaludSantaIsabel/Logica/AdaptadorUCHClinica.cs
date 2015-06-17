@@ -6,12 +6,11 @@ namespace CentroSaludSantaIsabel
 {
 	public static class AdaptadorUCHClinica
 	{
-        public static CentroDeSaludSantaIsabel.UCHistoriaClinica PatToUCHistoriaC(Paciente p)
+        public static CentroSaludSantaIsabel.UCHistoriaClinica PatToUCHistoriaC(Paciente p)
 		{
-            CentroDeSaludSantaIsabel.UCHistoriaClinica uchc = new CentroDeSaludSantaIsabel.UCHistoriaClinica();
+            CentroSaludSantaIsabel.UCHistoriaClinica uchc = new CentroSaludSantaIsabel.UCHistoriaClinica();
             uchc.labelNombres.Text = p.Nombres;
             uchc.labelApellidos.Text = p.Apellidos;
-            uchc.labelTelefono.Text = p.Telefono.ToString();
             return uchc;
 		}
 	}

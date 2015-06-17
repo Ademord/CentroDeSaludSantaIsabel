@@ -8,24 +8,33 @@ namespace CentroSaludSantaIsabel
 {
 	public class AdaptadorBDDTPaciente : AdaptadorBD
 	{
+        public static String table_name = "paciente";
         AdaptadorBDDTPaciente(string tn)
         {
-            this.table_name = tn;
+            table_name = tn;
         }
-		public NpgsqlCommand insert(DTPaciente p)
-		{
+        public static NpgsqlCommand traducir(DTPaciente dtp, int INSTRUCCION)
+        {
+            if (INSTRUCCION == BD.INSTRUCTION_INSERT)
+                return insert(dtp);
+            else if (INSTRUCCION == BD.INSTRUCTION_UPDATE)
+                return update(dtp);
+            else return delete(dtp.id);
+        }
 
+		public static NpgsqlCommand insert(DTPaciente p)
+		{
             var cmd = BD.Instance.conn.CreateCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "INSERT INTO" + table_name + "(nombres, apellidos) VALUES (@nombres, @apellidos);";
+            cmd.CommandText = " INSERT INTO " + table_name + " (nombres, apellidos) VALUES (@nombres, @apellidos);";
             cmd.Parameters.AddWithValue("nombres", p.paciente.Nombres);
             cmd.Parameters.AddWithValue("apellidos", p.paciente.Apellidos);
             return cmd;
 		}
 
-        public NpgsqlCommand update(DTPaciente p)
+        public static NpgsqlCommand update(DTPaciente p)
 		{
-            var cmd = BD.Instance.conn.CreateCommand();
+            var cmd = new NpgsqlCommand();
             cmd.CommandType = CommandType.Text;
             cmd.CommandText = "UPDATE @table_name SET nombres = '@nombres', apellidos = @apellidos WHERE id = @id" ;
             cmd.Parameters.AddWithValue("nombres", p.paciente.Nombres);
@@ -35,9 +44,9 @@ namespace CentroSaludSantaIsabel
             return cmd;
 		}
 
-        public NpgsqlCommand delete(int id)
+        public static NpgsqlCommand delete(int id)
 		{
-            var cmd = BD.Instance.conn.CreateCommand();
+            var cmd = new NpgsqlCommand();
             cmd.CommandType = CommandType.Text;
             cmd.CommandText = "DELETE FROM @table_name WHERE id = @id";
             cmd.Parameters.AddWithValue("id", id);

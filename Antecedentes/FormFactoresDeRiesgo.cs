@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CentroDeSaludSantaIsabel
+namespace CentroSaludSantaIsabel
 {
     public partial class Factores_de_Riesgo : Form
     {
