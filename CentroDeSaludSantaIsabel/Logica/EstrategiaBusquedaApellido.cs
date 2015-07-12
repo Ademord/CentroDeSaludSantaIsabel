@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CentroDeSaludSantaIsabel
+namespace CentroSaludSantaIsabel
 {
-    class EstrategiaBusquedaApellido
+    class EstrategiaBusquedaApellido: EstrategiaBusqueda
     {
-        public String buscar(String parametro)
+        override public String buscar(String parametro)
         {
-            return "SELECT * FROM " + CentroSaludSantaIsabel.AdaptadorBDDTPaciente.table_name + " WHERE apellidos = " + parametro
+            return "SELECT * FROM " + CentroSaludSantaIsabel.AdaptadorBDDTPaciente.table_name + " WHERE apellidos = " + parametro + ";" ;
         }
     }
 }

@@ -12,9 +12,7 @@ namespace CentroSaludSantaIsabel
         public static string localhost { get; set; }
         public static string user { get; set; }
         public static string password { get; set; }
-        public const int INSTRUCTION_INSERT = 0;
-        public const int INSTRUCTION_UPDATE = 1;
-        public const int INSTRUCTION_DELETE = 2;
+
         public const int NO_INDEX = 0;
         private BD() { }
         public static BD Instance

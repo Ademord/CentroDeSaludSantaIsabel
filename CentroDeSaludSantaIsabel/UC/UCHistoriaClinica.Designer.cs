@@ -34,11 +34,13 @@
             this.buttonPaciente = new System.Windows.Forms.Button();
             this.labelApellidos = new System.Windows.Forms.Label();
             this.labelNombres = new System.Windows.Forms.Label();
+            this.buttonEliminar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFoto)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBoxFoto
             // 
+            this.pictureBoxFoto.BackgroundImage = global::CentroSaludSantaIsabel.Properties.Resources.default_user_icon;
             this.pictureBoxFoto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBoxFoto.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxFoto.InitialImage")));
             this.pictureBoxFoto.Location = new System.Drawing.Point(13, 10);
@@ -89,10 +91,22 @@
             this.labelNombres.TabIndex = 153;
             this.labelNombres.Text = "Nombres:";
             // 
+            // buttonEliminar
+            // 
+            this.buttonEliminar.Location = new System.Drawing.Point(712, 115);
+            this.buttonEliminar.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.buttonEliminar.Name = "buttonEliminar";
+            this.buttonEliminar.Size = new System.Drawing.Size(176, 59);
+            this.buttonEliminar.TabIndex = 158;
+            this.buttonEliminar.Text = "Eliminar";
+            this.buttonEliminar.UseVisualStyleBackColor = true;
+            this.buttonEliminar.Click += new System.EventHandler(this.buttonEliminar_Click);
+            // 
             // UCHistoriaClinica
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.buttonEliminar);
             this.Controls.Add(this.pictureBoxFoto);
             this.Controls.Add(this.labelDescripcion);
             this.Controls.Add(this.buttonPaciente);
@@ -107,12 +121,13 @@
         }
 
         #endregion
-
+        public int index_paciente = CONFIG.NEW_REG;
         public System.Windows.Forms.PictureBox pictureBoxFoto;
         public System.Windows.Forms.Label labelDescripcion;
         public System.Windows.Forms.Button buttonPaciente;
         public System.Windows.Forms.Label labelApellidos;
         public System.Windows.Forms.Label labelNombres;
+        public System.Windows.Forms.Button buttonEliminar;
         
     }
 }

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Antecedentes", "Antecedente
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Salud", "Salud\Salud.csproj", "{77924C10-4506-4FE5-8A41-09CF625A1BFC}"
 EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject1", "ModelingProject1\ModelingProject1.modelproj", "{3157DCAD-818A-49BE-A1C9-717642B0ECEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{77924C10-4506-4FE5-8A41-09CF625A1BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77924C10-4506-4FE5-8A41-09CF625A1BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77924C10-4506-4FE5-8A41-09CF625A1BFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3157DCAD-818A-49BE-A1C9-717642B0ECEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3157DCAD-818A-49BE-A1C9-717642B0ECEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3157DCAD-818A-49BE-A1C9-717642B0ECEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3157DCAD-818A-49BE-A1C9-717642B0ECEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

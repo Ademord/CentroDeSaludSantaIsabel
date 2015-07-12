@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormHistoriaClinica));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPageAdmin = new System.Windows.Forms.TabPage();
+            this.ucPaciente = new CentroSaludSantaIsabel.UCPaciente();
             this.buttonNuevoResponsable = new System.Windows.Forms.Button();
             this.flowLayoutPanelResponsable = new System.Windows.Forms.FlowLayoutPanel();
             this.tabPageAnteced = new System.Windows.Forms.TabPage();
@@ -60,7 +61,6 @@
             this.flowLayoutPanelConsulta = new System.Windows.Forms.FlowLayoutPanel();
             this.buttonGuardar = new System.Windows.Forms.Button();
             this.buttonCancelar = new System.Windows.Forms.Button();
-            this.ucPaciente1 = new CentroSaludSantaIsabel.UCPaciente();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
@@ -85,7 +85,7 @@
             // tabPageAdmin
             // 
             this.tabPageAdmin.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.tabPageAdmin.Controls.Add(this.ucPaciente1);
+            this.tabPageAdmin.Controls.Add(this.ucPaciente);
             this.tabPageAdmin.Controls.Add(this.buttonNuevoResponsable);
             this.tabPageAdmin.Controls.Add(this.flowLayoutPanelResponsable);
             this.tabPageAdmin.Location = new System.Drawing.Point(10, 48);
@@ -95,6 +95,15 @@
             this.tabPageAdmin.Size = new System.Drawing.Size(1530, 665);
             this.tabPageAdmin.TabIndex = 1;
             this.tabPageAdmin.Text = "Administrativos";
+            // 
+            // ucPaciente
+            // 
+            this.ucPaciente.AutoSize = true;
+            this.ucPaciente.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.ucPaciente.Location = new System.Drawing.Point(3, 7);
+            this.ucPaciente.Name = "ucPaciente";
+            this.ucPaciente.Size = new System.Drawing.Size(1524, 180);
+            this.ucPaciente.TabIndex = 161;
             // 
             // buttonNuevoResponsable
             // 
@@ -412,15 +421,6 @@
             this.buttonCancelar.UseVisualStyleBackColor = true;
             this.buttonCancelar.Click += new System.EventHandler(this.buttonCancelar_Click);
             // 
-            // ucPaciente1
-            // 
-            this.ucPaciente1.AutoSize = true;
-            this.ucPaciente1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ucPaciente1.Location = new System.Drawing.Point(3, 7);
-            this.ucPaciente1.Name = "ucPaciente1";
-            this.ucPaciente1.Size = new System.Drawing.Size(1524, 180);
-            this.ucPaciente1.TabIndex = 161;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
@@ -506,7 +506,7 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanelResponsable;
         private System.Windows.Forms.Button buttonGuardar;
         private System.Windows.Forms.Button buttonCancelar;
-        private UCPaciente ucPaciente1;
+        public UCPaciente ucPaciente;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
 

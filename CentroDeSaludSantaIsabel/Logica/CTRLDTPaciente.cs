@@ -4,13 +4,15 @@ using System.Text;
 
 namespace CentroSaludSantaIsabel
 {
-	public class CTRLDTPaciente
+	public static class CTRLDTPaciente
 	{
-		List<int> ids;
-
-		public void leerBD()
+		public static void leerBD()
 		{
 			
 		}
+        public static void Guardar(DTPaciente dtp)
+        {
+            BD.Instance.execute(AdaptadorBDDTPaciente.Traducir(dtp));
+        }
 	}
 }

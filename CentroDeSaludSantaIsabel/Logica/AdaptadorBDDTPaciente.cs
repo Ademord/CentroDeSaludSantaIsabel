@@ -13,11 +13,11 @@ namespace CentroSaludSantaIsabel
         {
             table_name = tn;
         }
-        public static NpgsqlCommand traducir(DTPaciente dtp, int INSTRUCCION)
+        public static NpgsqlCommand Traducir(DTPaciente dtp)
         {
-            if (INSTRUCCION == BD.INSTRUCTION_INSERT)
+            if (dtp.instruccion == Instruccion.INSTRUCTION_INSERT)
                 return insert(dtp);
-            else if (INSTRUCCION == BD.INSTRUCTION_UPDATE)
+            else if (dtp.instruccion == Instruccion.INSTRUCTION_UPDATE)
                 return update(dtp);
             else return delete(dtp.id);
         }

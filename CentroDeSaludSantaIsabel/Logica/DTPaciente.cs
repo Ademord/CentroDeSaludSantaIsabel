@@ -4,9 +4,10 @@ using System.Text;
 
 namespace CentroSaludSantaIsabel
 {
-	public class DTPaciente
+	public class DTPaciente: DTRegistroGeneral
 	{
-        public int id { get; set; }
+        public Instruccion instruccion { get; set; }
+
         public Paciente paciente { get; set; }
 
         public DTPaciente() { }

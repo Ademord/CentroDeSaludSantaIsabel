@@ -24,19 +24,6 @@ namespace CentroSaludSantaIsabel
             formMed.Show();
         }
 
-        private void buttonNuevaHC_Click(object sender, EventArgs e)
-        {
-            FormHistoriaClinica formHC = new FormHistoriaClinica();
-            
-            DialogResult result = formHC.ShowDialog();
-                        
-        }
-
-        private void FormCentroSalud_Load(object sender, EventArgs e)
-        {
-            
-        }
-
         public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HT_CAPTION = 0x2;
 
@@ -54,9 +41,24 @@ namespace CentroSaludSantaIsabel
             }
         }
 
-        private void buttonBuscar_Click(object sender, EventArgs e)
+        private void buttonPacientes_Click(object sender, EventArgs e)
         {
-            CTRLHistoriaClinica.
+            CentroSalud.Pacientes(panelDesk);
+        }
+
+        private void buttonSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void buttonSalud_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
 
  

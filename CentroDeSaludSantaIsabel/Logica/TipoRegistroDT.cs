@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace CentroSaludSantaIsabel
 {
-    abstract class EstrategiaBusqueda
+    public enum TipoRegistroDT
     {
-        abstract public String buscar(String parametro);
+        DIRTY_REG_INSERT = -1,
+        DIRTY_REG_UPDATE = -3, 
+        DIRTY_REG_DELETE = -4,
+        CLEAN_REG = -2 
     }
 }

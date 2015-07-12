@@ -4,20 +4,23 @@ using System.Text;
 
 namespace CentroSaludSantaIsabel
 {
-	public static class AdaptadorDTPaciente
+	public class AdaptadorDTPaciente
 	{
-        public static Paciente traducir(DTPaciente p)
+        public Paciente Traducir(DTPaciente p)
 		{
             return p.paciente;
 		}
 
-        public static DTPaciente traducir(Paciente p, int id)
+        //reg con index, instruction type
+        public DTPaciente Traducir(Paciente p, int id)
 		{
+            if (id == CONFIG.NEW_REG) id = 0;
             return new DTPaciente(p, id);
   		}
-        public static DTPaciente traducir(Paciente p)
+        //reg sin index
+        public DTPaciente Traducir(Paciente p)
         {
-            return new DTPaciente(p);
+            return new DTPaciente(p, 0);
         }
 	}
 }

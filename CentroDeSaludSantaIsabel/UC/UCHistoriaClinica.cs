@@ -16,11 +16,15 @@ namespace CentroSaludSantaIsabel
         {
             InitializeComponent();
         }
-
         private void buttonPaciente_Click(object sender, EventArgs e)
         {
-            FormHistoriaClinica formP = new FormHistoriaClinica();
-            formP.Show();
+            CentroSalud.ctrlHC.Gestionar(this, index_paciente);
+            //MessageBox.Show(index_paciente.ToString());
+        }
+
+        private void buttonEliminar_Click(object sender, EventArgs e)
+        {
+            CentroSalud.ctrlHC.Eliminar(this, index_paciente);
         }
     }
 }

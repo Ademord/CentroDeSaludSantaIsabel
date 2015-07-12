@@ -7,7 +7,7 @@
     <ProjectGuid>{4086B85C-80A8-4098-82F8-C52EF52A4F57}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CentroDeSaludSantaIsabel</RootNamespace>
+    <RootNamespace>CentroSaludSantaIsabel</RootNamespace>
     <AssemblyName>CentroDeSaludSantaIsabel</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -48,19 +48,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormGestionHC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGestionHC.Designer.cs">
+      <DependentUpon>FormGestionHC.cs</DependentUpon>
+    </Compile>
     <Compile Include="Logica\AdapatadorUCPaciente.cs" />
     <Compile Include="Logica\AdaptadorBD.cs" />
     <Compile Include="Logica\AdaptadorBDDTPaciente.cs" />
     <Compile Include="Logica\AdaptadorDTPaciente.cs" />
     <Compile Include="Logica\AdaptadorUCPaciente.cs" />
     <Compile Include="Logica\AdaptadorUCHClinica.cs" />
+    <Compile Include="Logica\AdaptadorUIHC.cs" />
     <Compile Include="Logica\AdaptadorUIPaciente.cs" />
     <Compile Include="Logica\BD.cs" />
-    <Compile Include="Logica\BufferBD.cs" />
     <Compile Include="Logica\BufferPaciente.cs" />
+    <Compile Include="Logica\CONFIG.cs" />
+    <Compile Include="Logica\CTRL.cs" />
+    <Compile Include="Logica\CTRLDTHC.cs" />
     <Compile Include="Logica\CTRLDTPaciente.cs" />
     <Compile Include="Logica\CTRLHistoriaClinica.cs" />
     <Compile Include="Logica\CTRLPaciente.cs" />
+    <Compile Include="Logica\DTHC.cs" />
+    <Compile Include="Logica\DTRegistroGeneral.cs" />
     <Compile Include="Logica\DTPaciente.cs" />
     <Compile Include="FormCentroSalud.cs">
       <SubType>Form</SubType>
@@ -77,10 +88,12 @@
     <Compile Include="Logica\FactoriaEstrategiaBusqueda.cs" />
     <Compile Include="Logica\EstrategiaBusquedaApellido.cs" />
     <Compile Include="Logica\EstrategiaBusqueda.cs" />
+    <Compile Include="Logica\Instruccion.cs" />
     <Compile Include="Logica\Medico.cs" />
     <Compile Include="Logica\Paciente.cs" />
     <Compile Include="Logica\Persona.cs" />
     <Compile Include="Logica\CentroSalud.cs" />
+    <Compile Include="Logica\TipoRegistroDT.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Logica\Recepcionista.cs" />
     <Compile Include="Logica\Responsable.cs" />
@@ -116,6 +129,9 @@
     </Compile>
     <EmbeddedResource Include="FormCentroSalud.resx">
       <DependentUpon>FormCentroSalud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGestionHC.resx">
+      <DependentUpon>FormGestionHC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormHistoriaClinica.resx">
       <DependentUpon>FormHistoriaClinica.cs</DependentUpon>

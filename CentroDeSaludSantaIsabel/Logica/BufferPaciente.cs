@@ -7,30 +7,27 @@ namespace CentroSaludSantaIsabel
 	public class BufferPaciente
 	{
 		private static BufferPaciente instance;
-        public List<Paciente> buffer { get; set; }
+        public DTHC temp = new DTHC();
+        public List<DTHC> buffer = new List<DTHC>();
 
-        public List<KeyValuePair<int, int>> instrucciones;
         private BufferPaciente() {}
-      
-        public int add(Paciente p)
-        {
-            buffer.Add(p);
-            instrucciones.Add(new KeyValuePair<int, int>(buffer.Count, BD.INSTRUCTION_INSERT));
-            return buffer.Count;
 
+        public void AddTemp()
+        {
+            if (Instance.temp.paciente != null)
+            {
+                Instance.temp.paciente.id = Instance.buffer.Count;
+                Instance.buffer.Add(Instance.temp);
+            } 
+        }
+        public void DropTemp()
+        {
+            Instance.temp = new DTHC();
+        }
 
-        }
-        public void remove(Paciente p)
+        public DTHC Find(int index)
         {
-            buffer.Remove(p);
-        }
-        public void removePaciente(Paciente p)
-        {
-            buffer.Remove(p);
-        }
-        public Paciente find(int index)
-        {
-            return buffer[index-1];
+            return buffer[index];
         }
         public static BufferPaciente Instance
         {
@@ -38,10 +35,7 @@ namespace CentroSaludSantaIsabel
             {
                 if (instance == null)
                 {
-                    
                     instance = new BufferPaciente();
-                    instance.buffer = new List<Paciente>();
-                    instance.instrucciones = new List<KeyValuePair<int, int>>();
                 }
                 return instance;
             }

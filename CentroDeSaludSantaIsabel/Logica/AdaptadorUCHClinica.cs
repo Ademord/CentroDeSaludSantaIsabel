@@ -4,14 +4,22 @@ using System.Text;
 
 namespace CentroSaludSantaIsabel
 {
-	public static class AdaptadorUCHClinica
+	public class AdaptadorUCHClinica
 	{
-        public static CentroSaludSantaIsabel.UCHistoriaClinica PatToUCHistoriaC(Paciente p)
+        public CentroSaludSantaIsabel.UCHistoriaClinica Traducir(DTPaciente p)
 		{
             CentroSaludSantaIsabel.UCHistoriaClinica uchc = new CentroSaludSantaIsabel.UCHistoriaClinica();
-            uchc.labelNombres.Text = p.Nombres;
-            uchc.labelApellidos.Text = p.Apellidos;
+            uchc.labelNombres.Text = p.paciente.Nombres;
+            uchc.labelApellidos.Text = p.paciente.Apellidos;
+            uchc.index_paciente = p.id;
             return uchc;
 		}
+        public void Traducir(ref UCHistoriaClinica uchc1, DTPaciente p)
+        {
+            CentroSaludSantaIsabel.UCHistoriaClinica uchc2 = Traducir(p);
+            uchc1.labelNombres.Text = uchc2.labelNombres.Text;
+            uchc1.labelApellidos.Text = uchc2.labelApellidos.Text;
+            uchc1.index_paciente = uchc2.index_paciente = p.id;
+        }
 	}
 }

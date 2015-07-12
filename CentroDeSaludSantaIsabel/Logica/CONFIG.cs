@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace CentroSaludSantaIsabel
 {
-    abstract class EstrategiaBusqueda
+    static class CONFIG
     {
-        abstract public String buscar(String parametro);
+        public const int NEW_REG = -1;
+        public const int OLD_REG = -2;
+        
     }
 }

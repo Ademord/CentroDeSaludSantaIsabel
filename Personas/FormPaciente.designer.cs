@@ -84,7 +84,7 @@
             this.textBoxNombre.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.textBoxNombre.Name = "textBoxNombre";
             this.textBoxNombre.Size = new System.Drawing.Size(260, 38);
-            this.textBoxNombre.TabIndex = 2;
+            this.textBoxNombre.TabIndex = 1;
             // 
             // textBoxApellidos
             // 
@@ -92,7 +92,7 @@
             this.textBoxApellidos.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.textBoxApellidos.Name = "textBoxApellidos";
             this.textBoxApellidos.Size = new System.Drawing.Size(260, 38);
-            this.textBoxApellidos.TabIndex = 4;
+            this.textBoxApellidos.TabIndex = 2;
             // 
             // label2
             // 
@@ -142,7 +142,7 @@
             this.comboBoxSexo.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.comboBoxSexo.Name = "comboBoxSexo";
             this.comboBoxSexo.Size = new System.Drawing.Size(262, 39);
-            this.comboBoxSexo.TabIndex = 26;
+            this.comboBoxSexo.TabIndex = 3;
             // 
             // comboBoxGrupoSanguineo
             // 
@@ -156,7 +156,7 @@
             this.comboBoxGrupoSanguineo.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.comboBoxGrupoSanguineo.Name = "comboBoxGrupoSanguineo";
             this.comboBoxGrupoSanguineo.Size = new System.Drawing.Size(260, 39);
-            this.comboBoxGrupoSanguineo.TabIndex = 32;
+            this.comboBoxGrupoSanguineo.TabIndex = 9;
             // 
             // label14
             // 
@@ -178,7 +178,7 @@
             this.comboBoxFactorRH.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.comboBoxFactorRH.Name = "comboBoxFactorRH";
             this.comboBoxFactorRH.Size = new System.Drawing.Size(262, 39);
-            this.comboBoxFactorRH.TabIndex = 34;
+            this.comboBoxFactorRH.TabIndex = 11;
             // 
             // label15
             // 
@@ -216,7 +216,7 @@
             this.textBoxIdiomaMaterno.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.textBoxIdiomaMaterno.Name = "textBoxIdiomaMaterno";
             this.textBoxIdiomaMaterno.Size = new System.Drawing.Size(260, 38);
-            this.textBoxIdiomaMaterno.TabIndex = 19;
+            this.textBoxIdiomaMaterno.TabIndex = 7;
             // 
             // buttonCancelar
             // 
@@ -244,7 +244,7 @@
             this.textBoxEstadoCivil.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.textBoxEstadoCivil.Name = "textBoxEstadoCivil";
             this.textBoxEstadoCivil.Size = new System.Drawing.Size(262, 38);
-            this.textBoxEstadoCivil.TabIndex = 173;
+            this.textBoxEstadoCivil.TabIndex = 6;
             // 
             // label5
             // 
@@ -262,7 +262,7 @@
             this.textBoxOcupacion.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.textBoxOcupacion.Name = "textBoxOcupacion";
             this.textBoxOcupacion.Size = new System.Drawing.Size(260, 38);
-            this.textBoxOcupacion.TabIndex = 171;
+            this.textBoxOcupacion.TabIndex = 5;
             // 
             // label12
             // 
@@ -280,7 +280,7 @@
             this.textBoxNacionalidad.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.textBoxNacionalidad.Name = "textBoxNacionalidad";
             this.textBoxNacionalidad.Size = new System.Drawing.Size(258, 38);
-            this.textBoxNacionalidad.TabIndex = 169;
+            this.textBoxNacionalidad.TabIndex = 4;
             // 
             // label6
             // 
