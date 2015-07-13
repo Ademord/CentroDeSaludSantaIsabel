@@ -10,7 +10,9 @@ namespace CentroSaludSantaIsabel
 
         public Paciente paciente { get; set; }
 
-        public DTPaciente() { }
+        public DTPaciente() {
+            paciente = new Paciente();
+        }
 		public DTPaciente(Paciente _p, int _id)
 		{
             paciente = _p;

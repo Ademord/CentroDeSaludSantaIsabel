@@ -16,6 +16,11 @@ namespace CentroSaludSantaIsabel
         public FormCentroSalud()
         {
             InitializeComponent();
+            buttonPacientes.FlatAppearance.BorderSize = 0;
+            buttonSalud.FlatAppearance.BorderSize = 0;
+            buttonPersonal.FlatAppearance.BorderSize = 0;
+            buttonReportes.FlatAppearance.BorderSize = 0;
+            buttonSalir.FlatAppearance.BorderSize = 0;
         }
 
         private void button_medicamento_Click(object sender, EventArgs e)
@@ -40,27 +45,32 @@ namespace CentroSaludSantaIsabel
                 SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
             }
         }
-
         private void buttonPacientes_Click(object sender, EventArgs e)
         {
+            this.buttonSalud.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.buttonPersonal.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.buttonReportes.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.buttonPacientes.BackColor = System.Drawing.SystemColors.Highlight;
             CentroSalud.Pacientes(panelDesk);
         }
 
-        private void buttonSalir_Click(object sender, EventArgs e)
+        private void buttonSalir_Click_1(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void buttonSalud_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void buttonSalir_Click_2(object sender, EventArgs e)
         {
             this.Close();
         }
 
+        private void buttonSalud_Click_1(object sender, EventArgs e)
+        {
+            this.buttonSalud.BackColor = System.Drawing.SystemColors.Highlight;
+            this.buttonPersonal.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.buttonReportes.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.buttonPacientes.BackColor = System.Drawing.SystemColors.HotTrack;
+        }
  
 
     }

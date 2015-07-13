@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading;  
 
 namespace CentroSaludSantaIsabel
 {
     
     abstract class CTRL<FormT>
     {
+        static Thread ms_oThread = null;
+
         protected Object flowLayout;
         public abstract void InitiateService(Object form);
         public abstract FormT OpenForm(int reg_index);
@@ -22,7 +24,8 @@ namespace CentroSaludSantaIsabel
         public abstract void LoadDataBaseToBuffer();
         public abstract void LoadBufferToFlowLayoutPanel();
         public abstract void SaveBufferToBD();
-        
+        public abstract void CleanBuffer();
+
         public void Nuevo()
         {
             FormT form = OpenForm(CONFIG.NEW_REG);
@@ -46,6 +49,39 @@ namespace CentroSaludSantaIsabel
         {
             DeleteItem(reg_index);
             RemoveUCFromLayout(UC);
+        }
+        public void Save()
+        {
+            SaveBufferToBD();
+            Load();
+        }
+        public void Load()
+        {
+            CleanLayout();
+            CleanBuffer();
+            LoadingIndicator();
+            LoadDataBaseToBuffer();
+            LoadBufferToFlowLayoutPanel();
+        }
+
+        public async void LoadingIndicator()
+        {
+            PleaseWaitForm pleaseWait = new PleaseWaitForm();
+            pleaseWait.Show();
+            await System.Threading.Tasks.Task.Delay(TimeSpan.FromSeconds(1.5));
+            pleaseWait.Close();
+
+        }
+        public void CleanLayout()
+        {
+            List<System.Windows.Forms.Control> listControls =
+                    ((System.Windows.Forms.FlowLayoutPanel)this.flowLayout).Controls.Cast<System.Windows.Forms.Control>().ToList();
+
+            foreach (System.Windows.Forms.Control control in listControls)
+            {
+                ((System.Windows.Forms.FlowLayoutPanel)this.flowLayout).Controls.Remove(control);
+                control.Dispose();
+            }
         }
     }
 }

@@ -6,20 +6,24 @@ namespace CentroSaludSantaIsabel
 {
 	public static class CTRLDTHC
 	{
-		public static void leerBD()
+        public static void LoadBufferPacientesFromBD()
 		{
-			
+            CTRLBD.Open();
+            CTRLDTPaciente.LoadBufferPacientesFromBD(AdaptadorBDDTPaciente.QueryAll());
+            CTRLBD.Close();
 		}
+
         public static void SaveBufferToBD(){
-            BD.Instance.open();
+            CTRLBD.Open();
             foreach (DTHC reg in BufferPaciente.Instance.buffer)
             {
                 if (reg.tipoRegistro != TipoRegistroDT.CLEAN_REG)
                 {
                     CTRLDTPaciente.Guardar(reg.paciente);
+                    reg.tipoRegistro = TipoRegistroDT.CLEAN_REG;
                 }
             }
-            BD.Instance.close();
+            CTRLBD.Close();
         }
         public static void SetDeletes(int reg_index)
         {

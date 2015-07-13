@@ -24,7 +24,10 @@ namespace CentroSaludSantaIsabel
         {
             Instance.temp = new DTHC();
         }
-
+        public void DropBuffer()
+        {
+            instance = new BufferPaciente();
+        }
         public DTHC Find(int index)
         {
             return buffer[index];

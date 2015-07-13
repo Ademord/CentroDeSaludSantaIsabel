@@ -25,15 +25,38 @@ namespace CentroSaludSantaIsabel
             {
                 form = CTRLPaciente.adaptadorUI.Traducir(CTRLPaciente.adaptadorDT.Traducir(BufferPaciente.Instance.temp.paciente));
             }
-            if (form.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+           
             {
-                p = CTRLPaciente.adaptadorDT.Traducir(CTRLPaciente.adaptadorUI.Traducir(form));
-                BufferPaciente.Instance.temp.paciente = p;
-                if (ucp.index_paciente != CONFIG.NEW_REG) //not loaded from GestionarHC
-                    BufferPaciente.Instance.temp.paciente.instruccion = Instruccion.INSTRUCTION_INSERT;
-                else
-                    BufferPaciente.Instance.temp.paciente.instruccion = Instruccion.INSTRUCTION_UPDATE;
-                CTRLPaciente.adaptadorUC.Traducir(ucp, p.paciente);
+                bool valid = false;
+                while (!valid && form.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+                {
+                    try 
+                    {
+                        form.DialogResult = System.Windows.Forms.DialogResult.None;
+                        p = CTRLPaciente.adaptadorDT.Traducir(CTRLPaciente.adaptadorUI.Traducir(form));
+                        
+                        valid = true;
+                        if (ucp.index_paciente != CONFIG.NEW_REG)
+                        {
+                            p.id = BufferPaciente.Instance.temp.paciente.id;
+                            if (p == BufferPaciente.Instance.temp.paciente) 
+                                break;
+                            p.instruccion = Instruccion.INSTRUCTION_UPDATE;
+                        }
+                        else
+                            p.instruccion = Instruccion.INSTRUCTION_INSERT;
+                        BufferPaciente.Instance.temp.paciente = p;
+                        BufferPaciente.Instance.temp.tipoRegistro = TipoRegistroDT.DIRTY_REG_INSERT;
+                       CTRLPaciente.adaptadorUC.Traducir(ucp, p.paciente);
+                    }
+                    catch (NullReferenceException e)
+                    {
+                        System.Windows.Forms.MessageBox.Show("Ingresa bien tus datos! " + e.Message);
+                    }
+                }
+                
+                    
+                
             }
         }
 

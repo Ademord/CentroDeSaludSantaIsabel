@@ -15,6 +15,7 @@ namespace CentroSaludSantaIsabel
         public UCPaciente()
         {
             InitializeComponent();
+            buttonGestionarPaciente.FlatAppearance.BorderSize = 0;
         }
         public int index_paciente = CONFIG.NEW_REG;
         private void buttonGestionarPaciente_Click(object sender, EventArgs e)

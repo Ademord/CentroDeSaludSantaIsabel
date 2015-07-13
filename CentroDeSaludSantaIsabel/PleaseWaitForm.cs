@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Personas
+namespace CentroSaludSantaIsabel
 {
-    public partial class Form1 : Form
+    public partial class PleaseWaitForm : Form
     {
-        public Form1()
+        public PleaseWaitForm()
         {
             InitializeComponent();
         }

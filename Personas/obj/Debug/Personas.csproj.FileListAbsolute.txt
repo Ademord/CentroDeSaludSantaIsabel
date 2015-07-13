@@ -16,4 +16,3 @@ C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabe
 C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\Personas\obj\Debug\Personas.csproj.GenerateResource.Cache
 C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\Personas\obj\Debug\Personas.exe
 C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\Personas\obj\Debug\Personas.pdb
-C:\Users\Francisco\Documents\Visual Studio 2013\Projects\CentroDeSaludSantaIsabel\Personas\obj\Debug\Personas.csprojResolveAssemblyReference.cache

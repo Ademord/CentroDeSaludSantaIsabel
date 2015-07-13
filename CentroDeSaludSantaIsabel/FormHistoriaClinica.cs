@@ -21,7 +21,7 @@ namespace CentroSaludSantaIsabel
         {
             Salud.FormConsultaEnfermeria form = new Salud.FormConsultaEnfermeria();
             DialogResult res = form.ShowDialog();
-            if (res == DialogResult.OK) flowLayoutPanelConsulta.Controls.Add(new UCConsultaEnfermeria());
+           
 
         }
 
@@ -29,15 +29,8 @@ namespace CentroSaludSantaIsabel
         {
             Salud.FormConsultaMedica form = new Salud.FormConsultaMedica();
             DialogResult res = form.ShowDialog();
-            if (res == DialogResult.OK) flowLayoutPanelConsulta.Controls.Add(new UCConsultaMedica());
+           
         }
-
-        private void buttonGuardar_Click(object sender, EventArgs e)
-        {
-            this.DialogResult = DialogResult.OK;
-            this.Close();
-        }
-
         private void buttonCancelar_Click(object sender, EventArgs e)
         {
             this.DialogResult = DialogResult.Cancel;
@@ -49,6 +42,29 @@ namespace CentroSaludSantaIsabel
             Personas.FormResponsable form = new Personas.FormResponsable();
             DialogResult res = form.ShowDialog();
             if (res == DialogResult.OK) flowLayoutPanelResponsable.Controls.Add(new UCResponsable());
+        }
+
+        private void buttonSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void buttonResponsables_Click(object sender, EventArgs e)
+        {
+            Personas.FormResponsable form = new Personas.FormResponsable();
+            DialogResult res = form.ShowDialog();
+            if (res == DialogResult.OK) flowLayoutPanelResponsable.Controls.Add(new UCResponsable());
+        }
+
+        private void buttonNuevaConsultaEnfermeria_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonGuardar_Click_1(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.OK;
+            this.Close();
         }
 
     }

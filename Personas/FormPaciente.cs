@@ -32,8 +32,8 @@ namespace Personas
             }
             else
             {
-                this.DialogResult = DialogResult.OK;
-                this.Close();
+                    this.DialogResult = DialogResult.OK;
+                    this.Close();
             }
         }
 

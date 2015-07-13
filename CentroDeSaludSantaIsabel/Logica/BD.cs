@@ -9,9 +9,9 @@ namespace CentroSaludSantaIsabel
 	{
         private static BD instance;
         public NpgsqlConnection conn { get; set; }
-        public static string localhost { get; set; }
-        public static string user { get; set; }
-        public static string password { get; set; }
+        public string localhost { get; set; }
+        public string user { get; set; }
+        public string password { get; set; }
 
         public const int NO_INDEX = 0;
         private BD() { }
@@ -22,30 +22,13 @@ namespace CentroSaludSantaIsabel
                 if (instance == null)
                 {
                     instance = new BD();
-                    localhost = "localhost";
-                    user = "centrosalud";
-                    password = "cisco";
+                    Instance.localhost = "localhost";
+                    Instance.user = "centrosalud";
+                    Instance.password = "cisco";
                 }
                 return instance;
             }
         }
 
-		public void open()
-		{
-            instance.conn = new NpgsqlConnection("Host=" + localhost + "; User=" + user + "; Password=" + password);
-            conn.Open();
-		}
-
-		public void execute(NpgsqlCommand cmd)
-		{
-           
-                var reader = cmd.ExecuteReader();
-                reader.Read();
-  		}
-
-		public void close()
-		{
-            conn.Close();
-		}
 	}
 }

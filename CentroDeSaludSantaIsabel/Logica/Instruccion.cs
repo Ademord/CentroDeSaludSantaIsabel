@@ -8,7 +8,7 @@ namespace CentroSaludSantaIsabel
 {
     public enum Instruccion
     { 
-        INSTRUCTION_DEFAULT = 0, 
+        INSTRUCTION_NONE = 0, 
         INSTRUCTION_INSERT = 1, 
         INSTRUCTION_UPDATE = 2, 
         INSTRUCTION_DELETE = 3 

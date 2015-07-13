@@ -15,11 +15,24 @@ namespace CentroSaludSantaIsabel
         public FormGestionHC()
         {
             InitializeComponent();
+            buttonNuevo.FlatAppearance.BorderSize = 0;
+            buttonCargar.FlatAppearance.BorderSize = 0;
+            buttonGuardar.FlatAppearance.BorderSize = 0;
         }
 
         protected virtual void buttonNuevo_Click(object sender, EventArgs e)
         {
             CentroSalud.ctrlHC.Nuevo();
+        }
+
+        private void buttonGuardar_Click(object sender, EventArgs e)
+        {
+            CentroSalud.ctrlHC.Save();
+        }
+
+        private void buttonCargar_Click(object sender, EventArgs e)
+        {
+            CentroSalud.ctrlHC.Load();
         }
     }
 }

@@ -66,6 +66,7 @@
     <Compile Include="Logica\BufferPaciente.cs" />
     <Compile Include="Logica\CONFIG.cs" />
     <Compile Include="Logica\CTRL.cs" />
+    <Compile Include="Logica\CTRLBD.cs" />
     <Compile Include="Logica\CTRLDTHC.cs" />
     <Compile Include="Logica\CTRLDTPaciente.cs" />
     <Compile Include="Logica\CTRLHistoriaClinica.cs" />
@@ -94,6 +95,12 @@
     <Compile Include="Logica\Persona.cs" />
     <Compile Include="Logica\CentroSalud.cs" />
     <Compile Include="Logica\TipoRegistroDT.cs" />
+    <Compile Include="PleaseWaitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PleaseWaitForm.Designer.cs">
+      <DependentUpon>PleaseWaitForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Logica\Recepcionista.cs" />
     <Compile Include="Logica\Responsable.cs" />
@@ -135,6 +142,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormHistoriaClinica.resx">
       <DependentUpon>FormHistoriaClinica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PleaseWaitForm.resx">
+      <DependentUpon>PleaseWaitForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -191,6 +201,11 @@
       <Project>{77924c10-4506-4fe5-8a41-09cf625a1bfc}</Project>
       <Name>Salud</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="loading_image.gif" />
+    <None Include="Resources\logo_centro_salud.png" />
+    <None Include="Resources\loading_image.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

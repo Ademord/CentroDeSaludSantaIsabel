@@ -15,7 +15,6 @@ namespace CentroSaludSantaIsabel
             form.ucPaciente.labelApellidos.Text = p.paciente.Apellidos;
             form.ucPaciente.labelGrupoSanguineo.Text = p.paciente.GrupoSanguineo.ToString();
             form.ucPaciente.labelSexo.Text = p.paciente.Sexo.ToString();
-            form.ucPaciente.index_paciente = p.id;
             return form;
         }
     }
