@@ -40,6 +40,8 @@ namespace CentroSaludSantaIsabel
                         {
                             p.id = BufferPaciente.Instance.temp.paciente.id;
                             if (p == BufferPaciente.Instance.temp.paciente) 
+                                //se hace un update innecesario con los mismos datos al no verificar
+                                //que no se haya cambiado ningun dato. habria que agregar eventos a cada textbox..
                                 break;
                             p.instruccion = Instruccion.INSTRUCTION_UPDATE;
                         }
